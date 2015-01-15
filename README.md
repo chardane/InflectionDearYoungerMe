@@ -21,12 +21,14 @@ Try to organize your thinking so that you can make changes or write code in smal
 2. `git add .` to add all of the files you want to save your progress on (yes, that's a dot at the end).
 3. `git commit -m "some message here"` to commit your changes (meaning, saving your progress).
 
+You can also use the github client, if you feel more comfortable with that (I use it a lot too).
+
 
 After your task
 ---------------
 When you're done, you want to "sync" your branch, meaning update the remote repo, here's what you do:
 
-In the git client:
+In the github client:
 
 1. Click "sync" or "publish"
 
