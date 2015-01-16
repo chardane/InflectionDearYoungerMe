@@ -1,0 +1,130 @@
+
+#image{
+	display: block;
+	margin: 0 auto;
+	max-width: 1100px;
+	text-align: center;
+	
+}
+#image img{
+	height: 40%;
+	width: 40%;
+}
+
+.setting{
+	background-color: #f6f8fa;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+#star{
+	font-family: Karbon;
+	font-style: Bold;
+	font-size: 48px;
+	margin-left: 60px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#status{
+	font-family: Karbon;
+	font-style: Regular;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 60px;
+	float: left;
+	width: 850px;
+}
+
+#logo{
+	display: block;
+	margin:0 auto;
+	max-width: 1100px;
+	text-align: right;
+}
+
+#logo img{
+	padding: 20px;
+}
+
+.blurb{
+	font-family: Karbon;
+	font-style: Regular;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 85px;
+	margin-left: 175px;
+	margin-right: 175px;
+}
+
+.star-bio{
+	font-family: Myriad Pro;
+	font-style: Regular;
+	font-size: 21px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 35px;
+	margin-bottom: 70px;
+}
+
+.fun-facts{
+	font-family: Myriad Pro;
+	font-style: Regular;
+	font-size: 15px;
+	margin-top: 65px;
+	margin-bottom: 65px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+#bold{
+	font-family: Myriad Pro;
+	font-style: Bold;
+}
+
+#recap{
+	font-family: Myriad Pro;
+	font-style: Regular;
+	font-size: 15px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	float: left;
+	width: 200px;
+}
+#team{
+	display: block;
+	margin:0 auto;
+	max-width: 1100px;
+}
+#team img{
+	width: 75%;
+	height: auto;
+}
+
+.women{
+	font-family: Karbon;
+	font-style: Regular;
+	font-size: 42px;
+	text-align: center;
+	margin-top: 155px;
+	margin-bottom: 60px;
+}
+
+h3{
+	font-family: Myriad Pro;
+	font-style: Semibold;
+	font-size: 18px;
+	text-align: left;
+	
+}
+
+h4{
+	font-family: Myriad Pro;
+	font-style: Regular;
+	font-size: 15px;
+	text-align: left;
+	
+}
