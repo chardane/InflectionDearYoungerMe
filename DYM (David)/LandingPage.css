@@ -1,0 +1,321 @@
+body {
+    /*margin-top: 50px;*/ /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    width:100%;
+    max-height: 90%;
+    
+}
+
+
+
+h2, .h2 {
+
+font-size: 24px;
+font-weight:inherit;
+
+}
+
+
+.image-bg-fluid-height {
+	background: url('NewHeadre.gif') no-repeat center center scroll;
+  padding: 3px 0;
+    background-size: cover;
+    
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+
+
+
+
+
+
+/*Banner*/
+.dymheader{
+
+    background-color: #f6f8fa;
+    padding:40px;
+    font-weight: lighter;
+}
+
+.infoDYM{
+
+    margin-bottom: 42px
+}
+
+.infoDYMHeader{
+
+    padding-top: 1px;
+}
+
+
+.headerarrow{
+
+    margin: 10px;
+}
+
+
+/*About Dear Younger Me content*/
+
+
+.aboutDYM{
+    font-weight: lighter;
+    text-align: center;
+    line-height: 2em;
+    max-width: 850px;
+    max-height: 100%;
+    background-color: #f6f8fa;
+    margin: 0 auto;
+    margin-top: 14px;
+
+}
+
+.logoicons{
+    padding-bottom: 74px;
+
+}
+.taglinetext {
+
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+.DYMvideo{
+
+    margin-bottom: 47px;
+}
+
+
+
+
+/*Container for Profiles*/
+#procontanier{
+display:inline;
+ clear:left;
+
+}
+
+#profilebox{
+    position: relative;
+    width:205px;
+    height: 250px;
+   /* border:1px solid black;*/
+    border-radius:5px;
+    background-color: #eef1f3;
+    left: 20px;
+    font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+
+    display: inline-table;
+    
+
+}
+
+/*Profile Layout*/
+
+.profilepic{
+
+    height: 154px;
+    margin-top:22px;
+    position: relative;
+
+}
+
+.bioinfo {
+   position: absolute; 
+   bottom: 35px; 
+   left: 12px;
+   color: black;
+  font-family: ‘Metrophobic’, Arial, serif; font-weight: 700; 
+  font-size: 12px;
+}
+
+.biosubinfo{
+    position: absolute; 
+   bottom: 14px; 
+   left: 12px;
+   font-weight: lighter;
+   font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+   font-size: 11px;
+
+}
+
+.titlesubinfo{
+
+ position: absolute; 
+   bottom: -3px; 
+   left: 11px;
+   font-weight: lighter;
+   font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+   font-size: 10px;
+
+}
+
+
+/* Random */
+
+.btn .btn-default{
+    background-color: #3c3d4d;
+    width: 205px;
+
+}
+
+
+hr  {
+
+    width: 850px;
+    background-color: #ebebeb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
