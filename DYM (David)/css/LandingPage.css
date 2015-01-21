@@ -105,11 +105,10 @@ div.linebreaks{
     text-align: center;
     line-height: 2em;
     max-width: 1215px;
-    max-height: 2380px;
     background-color: #f6f8fa;
     margin: 0 auto;
     margin-top: 14px;
-
+ 
 }
 
 .logoicons{
@@ -124,46 +123,44 @@ div.linebreaks{
     font-weight: lighter;
     line-height: 1.5em;
     padding: 10px;
+
 }
 
-video.DYMvideo{
-
-    margin-bottom: 47px;
-    max-width: 1000px;
-    max-height: 561px;
-}
 
 
 
 
 /*Container for Profiles*/
 #procontanier{
- margin: auto 30px;
+  margin-right: -25px;
 
 }
 
 #profilebox{
     position: relative;
     width:284px;
-    height: 331px;
+    min-width: 150px;
+    height:331px;
+    max-height: 75%;
+
    /* border:1px solid black;*/
     border-radius:5px;
     background-color: #eef1f3;
-    
     font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
-
-   /* display: inline-table;*/
-    margin: 0 5px 5px 0;
-    padding: 30px;
+    margin: 0 5px 10px 0;
+    
     
 
 }
 
 /*Profile Layout*/
 
-.profilepic{
+
+
+.profilepic #profilebix{
 
     max-height: 230px;
+    min-height: 100px;
     position: relative;
     margin-top: 15px;
 
@@ -175,7 +172,7 @@ video.DYMvideo{
    left: 12px;
    color: black;
   font-family: ‘Metrophobic’, Arial, serif; font-weight: 700; 
-  font-size: 12px;
+  font-size: 17px;
 }
 
 .biosubinfo{
@@ -184,7 +181,7 @@ video.DYMvideo{
    left: 12px;
    font-weight: lighter;
    font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
-   font-size: 11px;
+   font-size: 15px;
 
 }
 
@@ -195,7 +192,7 @@ video.DYMvideo{
    left: 11px;
    font-weight: lighter;
    font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
-   font-size: 10px;
+   font-size: 14.95px;
 
 }
 
@@ -237,14 +234,24 @@ video.DYMvideo{
   margin-left: 10px;
 }*/
 
-
+/*
 video {
 
   max-width: 100%;
-  min-width: 300px;
+  
   max-height: 300px;
-  min-height: 100%;
+
+}*/
+
+div.DYMvideo{
+
+    margin-bottom: 47px;
+    max-width: 1000px;
+    max-height: 561px;
+    min-width: 300px;
+    min-height: 100%;
 }
+
 
 
 
@@ -276,9 +283,36 @@ hr{
 }
 
 
+/*Font Awesome Copy*/
 
+.fa-2x {
+  font-size: 2em;
+  outline-color: #0095ed
+  
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
 
+.fa{
+ color: #0095ed;
+}
 
+.fa:hover{
+
+  color: white;
+
+}
 
 
 
