@@ -55,7 +55,17 @@ footer {
     }
 }
 
+@media (min-width: 1900px){
 
+    .profile{
+
+      max-width: 50%;
+      max-height: 50%;
+
+
+    }
+
+}
 
 
 
@@ -71,8 +81,8 @@ footer {
 }
 
 .infoDYM{
-
-    margin-bottom: 42px
+    font-size: 20.97px;
+    margin-bottom: 42px;
 }
 
 .infoDYMHeader{
