@@ -1,5 +1,5 @@
-body {
-    /*margin-top: 50px;*/ /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+.embed-responsive.embed-responsive-16by9 {
+  padding-bottom: 44.25%;
 }
 
 .image-bg-fluid-height,
@@ -55,17 +55,7 @@ footer {
     }
 }
 
-@media (min-width: 1900px){
 
-    .profile{
-
-      max-width: 50%;
-      max-height: 50%;
-
-
-    }
-
-}
 
 
 
@@ -86,8 +76,11 @@ footer {
 }
 
 .infoDYMHeader{
-
+    position: absolute;
+    max-height:403px; 
+    max-width:450px;
     padding-top: 1px;
+    top:100px;
 }
 
 
@@ -136,19 +129,81 @@ div.linebreaks{
     padding: 10px;
 }
 
-video.DYMvideo{
 
-    margin-bottom: 47px;
-    max-width: 1000px;
-    max-height: 561px;
+/*Video*/
+
+.simple-video-wrapper {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  width: 453px;
+  left: 267px;
+  
 }
 
+.simple-video-overlay {
+  background: rgba(0,0,0,0.2) url(button.png) 50% 50% no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
 
+video.DYMvideo{
+
+    position: relative;
+    margin-bottom: 47px;
+    right: 0px;
+    width: 998px;
+    height: 558px;
+
+   
+}
+
+p#videotxt{
+
+  margin-left: 414px;
+  font-weight: bold;
+}
+
+embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 486px;
+  max-height: 393px;
+  border: 0;
+}
+#vidlbs {
+
+border-bottom: 1px solid rgba(150,150,150,3.6);
+    max-width: 993px;
+    margin:0 auto;
+
+}
+
+.videocontents{
+
+    margin-top: 64px;
+}
 
 
 /*Container for Profiles*/
 #procontanier{
- margin: auto 30px;
+ margin-right: 44px;
+ margin-left: 31px;
 
 }
 
@@ -178,6 +233,18 @@ video.DYMvideo{
     margin-top: 15px;
 
 }
+
+  @media (min-width: 500px){
+
+    .bioinfo{
+
+      font-size: 50%;
+      
+
+    }
+
+}
+
 
 .bioinfo {
    position: absolute; 
