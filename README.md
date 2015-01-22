@@ -3,6 +3,8 @@ InflectionDearYoungerMe
 
 Everytime you work on a task, create a new branch for it. This helps you make sure that you don't break the current master branch, and you can isolate all your code to just your own.
 
+Get the design docs [here](https://drive.google.com/a/inflection.com/folderview?id=0B7IasRHRMr-oeWx2bS04ZXgzT1E&usp=sharing)
+
 Before your task
 -----------------
 Here is how you create a new branch:
