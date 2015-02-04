@@ -236,6 +236,8 @@ font-family: "Proxima-Nova";
   font-family: "Proxima-Nova";
   font-size: 19px;
   line-height: 30pt;
+  word-spacing: -2px;
+  color: #5c5c5c;
 
 
 }
@@ -489,6 +491,11 @@ font-family: "Proxima-Nova";
   font-family: "Proxima-Nova-Semibold";
   font-size: 19px;
   margin-right: 10px;
+}
+.bioinfo:hover{
+
+  color: #3c3d4d;
+
 }
 
 
