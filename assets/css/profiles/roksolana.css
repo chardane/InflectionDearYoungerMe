@@ -109,10 +109,19 @@ body{
 .mediaicons {
     position: absolute;
     left: 112px;
-    -webkit-transition: color #444172;
-    transition: color #444172;
+    /*-webkit-transition: color #444172;
+    transition: color #444172;*/
+    color: #444172;
 
 }
+
+
+.mediaicons:hover{
+
+	color: #3c3d4d;
+
+}
+
 .blurb{
 	margin-right: 115px;
 }
