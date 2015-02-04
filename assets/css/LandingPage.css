@@ -1,5 +1,62 @@
+@font-face{
+
+font-family: 'Karbon-semibold';
+src:
+    local('Karbon-semibold'),
+    local('Karbon-semibold'),
+    url('../fonts/Karbon-Semibold.otf');
+  ;
+}
+
+@font-face{
+font-family: "Karbon";
+  src:
+      local("Karbon"),
+      local("Karbon"),
+      url("../fonts/Karbon-Regular.otf");
+}
+
+@font-face{
+  font-family: "Proxima-Nova";
+  src:
+      local("Proxima-Nova")
+      local("Proxima-Nova")
+      url("../fonts/Mark Simonson - Proxima Nova Regular.otf")
+
+  ;
+
+}
+
+@font-face{
+  font-family: "Proxima-Nova-Semibold";
+  src:
+      local("Proxima-Nova-Semibold")
+      local("Proxima-Nova-Semibold")
+      url("../fonts/Mark Simonson - Proxima Nova Semibold.otf")
+
+  ;
+
+}
+
+body{
+
+  background-color: #eaeaea;
+}
+
+.container-fluid{
+
+  margin-right: auto;
+  margin-left:auto;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .embed-responsive.embed-responsive-16by9 {
   padding-bottom: 44.25%;
+}
+
+.embed-responsive .embed-responsive-item {
+  height: 382px;
 }
 
 .image-bg-fluid-height,
@@ -18,29 +75,38 @@
 
 h2, .h2 {
 
-font-size: 24px;
+font-size: 38px;
 font-weight:inherit;
+font-family: 'Karbon-semibold';
 
 }
 
+
+
 .row {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
 
 
 .image-bg-fluid-height {
-	background: url('Top-Page.png') no-repeat center center scroll;
+	background: url('dym-mainHero.png') no-repeat center center scroll;
   padding: 17px 0;
-    background-size: cover;
+  background-size: 100% 100%;
+  margin-top: 100px;
     
 }
 
 .img-center {
 	margin: 0 auto;
+  padding-top: 160px;
+  width: 160px;
 }
 
 
-footer {
+/*footer {
     margin: 50px 0;
 }
 
@@ -55,11 +121,7 @@ footer {
     }
 }
 
-
-
-
-
-
+*/
 
 
 /*Banner*/
@@ -70,9 +132,21 @@ footer {
     font-weight: lighter;
 }
 
+.landingbtn{
+
+    padding-top:65px;
+    padding-bottom: 40px;
+    vertical-align: middle;
+
+}
+
 .infoDYM{
-    font-size: 20.97px;
+    font-size: 19px;
     margin-bottom: 42px;
+    text-align: left;
+    word-spacing: -1px;
+    font-family: "Proxima-Nova";
+    color: #797979;
 }
 
 .infoDYMHeader{
@@ -81,6 +155,28 @@ footer {
     max-width:450px;
     padding-top: 1px;
     top:100px;
+    color: #3c3c3c;
+    margin-left: 100px;
+}
+
+.tagline{
+
+  margin-top: 15px;
+  padding-top: 40px;
+
+
+}
+
+.taglinetext{
+
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-family: "Karbon";
+    line-height: 1.5em;
+    padding: 10px;
+    letter-spacing: 10;
 }
 
 
@@ -89,19 +185,17 @@ footer {
     margin: 10px;
 }
 
-div.linebreaks{
-
-  border-top: 1px solid rgba(150,150,150,3.6);
-  border-bottom: 1px solid rgba(150,150,150,3.6);
-  max-width: 850px;
-  margin:0 auto;
-
-
-}
-
 
 /*About Dear Younger Me content*/
 
+.infosection{
+
+padding-bottom:60px;
+color: #5c5c5c;
+font-family: "Proxima-Nova";
+
+
+}
 
 .aboutDYM{
     font-weight: lighter;
@@ -111,35 +205,74 @@ div.linebreaks{
     max-height: 2380px;
     background-color: #f6f8fa;
     margin: 0 auto;
-    margin-top: 14px;
 
 }
 
-.logoicons{
-    padding-bottom: 74px;
+.about-content{
+
+  padding-top:130px;
+  padding-left: 112px;
+  padding-right: 112px; 
 
 }
-.taglinetext {
+
+#dym-description{
+
+  text-align: left;
+
+}
+
+
+.dym-des-hdr{
+
+  font-family: "Karbon-semibold";
+  font-size:38px;
+  color: #3c3c3c;
+
+}
+
+.dym-des-txt{
+
+  font-family: "Proxima-Nova";
+  font-size: 19px;
+  line-height: 30pt;
+  word-spacing: -2px;
+  color: #5c5c5c;
+
+
+}
+
+#videotxt{
+
+  padding-bottom: 100px;
+
+
+}
+
+
+
+/*.taglinetext{
 
     color: white;
-    font-size: 26px;
+    font-size: 24px;
     padding-top: 10px;
     font-weight: lighter;
+    font-family: "Karbon";
     line-height: 1.5em;
     padding: 10px;
 }
 
 
-/*Video*/
+
 
 .simple-video-wrapper {
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   -moz-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  height: 400px;
+  /*height: 253px;*/
+/*  width: 453px;
   margin: 0 auto;
   position: relative;
-  width: 453px;
   left: 267px;
   
 }
@@ -167,10 +300,21 @@ video.DYMvideo{
    
 }
 
+.vidtxtbox{
+  position: absolute;
+  left: 232px;  
+  bottom: 3px;
+  font-size:16px;
+
+
+}
+
+
 p#videotxt{
 
   margin-left: 414px;
   font-weight: bold;
+  
 }
 
 embed-responsive .embed-responsive-item,
@@ -186,42 +330,140 @@ embed-responsive .embed-responsive-item,
   max-height: 393px;
   border: 0;
 }
-#vidlbs {
 
-border-bottom: 1px solid rgba(150,150,150,3.6);
-    max-width: 993px;
-    margin:0 auto;
-
-}
 
 .videocontents{
 
-    margin-top: 64px;
+    margin-top: 115px;
+}
+
+.DYMsocial{
+
+position: absolute;
+left: 0px;
+bottom: -139px;
+font-size: 19px;
+font-family: "Proxima-Nova";
+
+}
+
+.socialtxt{
+
+  margin-right: 20px;
+  color: #797979;
+
+}*/
+
+.fa-facebook-square:before{
+
+  content: "/f082";
+ /* color: #3B5998;*/
+  color: #484574;
+}
+.fbook{
+
+  margin-right: 20px;
+  color: #3B5998;
+  }
+
+.fa-linkedin-square:before{
+
+ /*color: #007bb6;*/
+ color: #484574;
+}
+
+.lnkdn{
+  margin-right: 20px;
+  margin-left: 20px;
+
+
+}
+
+.fa-twitter-square:before{
+  /*color: #4099ff;*/
+  color: #484574;
+}
+
+/*.tweet{
+  margin-left: 20px;
+  
+}
+
+.logoicons{
+    padding-bottom: 74px;
+    max-width: 100px;
+    margin-right: 290px;
+    display: inline-flex;
+
+
+
+  }*/
+
+
+    /*Diveder for g*/
+
+
+
+#griddvdr{
+
+    border-top: 1px solid #9f9f9f;
+    max-width: 1000px;
+    margin:0 auto;
+
+
+}
+/*Container for the Grid*/
+
+#thegrid{
+
+  margin-top: 75px;
+
+}
+
+/*Grid Contents*/
+
+.gridcontents{
+
+    padding-top:40px;
+
+
 }
 
 
+
+/*Header of Leaders At Inflection*/
+.leaderheader{
+  position: relative;
+}
+
+.lhtext{
+  position: absolute;
+  color:#3c3c3c;
+  left:100px;
+  bottom:-40px;
+  font-size: 38px;
+  font-family: "Karbon-semibold";
+}
 /*Container for Profiles*/
-#procontanier{
- margin-right: 44px;
- margin-left: 31px;
+
+
+#procontainer{
+ padding:70px;
+ padding-bottom: 0px;
 
 }
+
+#ghostcontainer{
+
+  padding:0px 70px 0px 70px;
+ }
 
 #profilebox{
     position: relative;
-    width:284px;
-    height: 331px;
-   /* border:1px solid black;*/
-    border-radius:5px;
+    height: 322px;
     background-color: #eef1f3;
+    max-width: 230px;
     
-    font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
-
-   /* display: inline-table;*/
-    margin: 0 5px 5px 0;
-    padding: 30px;
-    
-
 }
 
 /*Profile Layout*/
@@ -230,49 +472,50 @@ border-bottom: 1px solid rgba(150,150,150,3.6);
 
     max-height: 230px;
     position: relative;
-    margin-top: 15px;
+  
 
 }
 
-  @media (min-width: 500px){
+.profiletext{
 
-    .bioinfo{
+  padding: 20px;
+  text-align: left;
 
-      font-size: 50%;
-      
 
-    }
-
-}
+}  
 
 
 .bioinfo {
-   position: absolute; 
-   bottom: 35px; 
-   left: 12px;
-   color: black;
-  font-family: ‘Metrophobic’, Arial, serif; font-weight: 700; 
-  font-size: 12px;
+  margin: 0px 10px 0px 0px;
+   color: #444172;
+  font-family: "Proxima-Nova-Semibold";
+  font-size: 19px;
+  margin-right: 10px;
+}
+.bioinfo:hover{
+
+  color: #3c3d4d;
+
 }
 
+
+
 .biosubinfo{
-    position: absolute; 
-   bottom: 14px; 
-   left: 12px;
    font-weight: lighter;
-   font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
-   font-size: 11px;
+   font-family: "Proxima-Nova";
+   font-size: 14.9px;
+   margin-bottom: -12px;
+   margin-top: -9px;
 
 }
 
 .titlesubinfo{
 
- position: absolute; 
-   bottom: -3px; 
-   left: 11px;
+   /* margin: -10px 10px 0px 0px;*/
    font-weight: lighter;
-   font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
-   font-size: 10px;
+   font-family: "Proxima-Nova";
+   font-size: 14.9px;
+   margin-right: 10px;
 
 }
 
@@ -297,29 +540,47 @@ border-bottom: 1px solid rgba(150,150,150,3.6);
 
 }
 
+.viewbtn{
+
+  
+  padding-top: 26px;
+  padding-bottom: 20px;
+
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #3b3b4c;
+  border-color: #ccc;
+  width: 130px;
+  height: 34px;
+  border-radius: 5px;
+  font-family: "Proxima-Nova-Semibold";
+  font-size:13.84px;
+}
+
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #24242e;
+  border-color: #3b3b4c;
+}
 
 
 }
 
 
-/*hr:after{
- display: inline-block;
-  content: "";
-  height: 4px;
-  background: #f00;
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  margin-top: -2px;
-  margin-left: 10px;
-}*/
-
 
 video {
 
   max-width: 100%;
-  min-width: 300px;
-  max-height: 300px;
+  min-width: 485px;
+  max-height: 382px;
   min-height: 100%;
 }
 
@@ -327,53 +588,23 @@ video {
 
 
 
-/* Gradient transparent - color - transparent */    
-hr.probrks
-{ 
-  border: 0;    
-  height: 1px;    
-  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0));    
-   background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0));     
-   background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0));    
-   background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0)); 
 
+.gridghost{
 
- }
-
-
-hr{
-
-
-    border: 0;    
-  height: 1px;    
-  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(150,150,150,3.6), rgba(0,0,0,0));    
-   background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(150,150,150,3.6), rgba(0,0,0,0));     
-   background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.20), rgba(0,0,0,0));    
-   background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.20), rgba(0,0,0,0));
+  display: none;
 }
 
 
 
 
 
+/*Ryu*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.stance{
+  
+  background-image: url("http://i.imgur.com/Rfj0a80.png");
+}
+  
 
 
 
