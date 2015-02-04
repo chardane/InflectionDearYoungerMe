@@ -92,9 +92,10 @@ font-family: 'Karbon-semibold';
 
 
 .image-bg-fluid-height {
-	background: url('Top-Page.png') no-repeat center center scroll;
+	background: url('dym-mainHero.png') no-repeat center center scroll;
   padding: 17px 0;
-  background-size: cover;
+  background-size: 100% 100%;
+  margin-top: 100px;
     
 }
 
@@ -105,7 +106,7 @@ font-family: 'Karbon-semibold';
 }
 
 
-footer {
+/*footer {
     margin: 50px 0;
 }
 
@@ -120,7 +121,7 @@ footer {
     }
 }
 
-
+*/
 
 
 /*Banner*/
@@ -133,7 +134,7 @@ footer {
 
 .landingbtn{
 
-    padding-top:69px;
+    padding-top:65px;
     padding-bottom: 40px;
     vertical-align: middle;
 
@@ -175,6 +176,7 @@ footer {
     font-family: "Karbon";
     line-height: 1.5em;
     padding: 10px;
+    letter-spacing: 10;
 }
 
 
