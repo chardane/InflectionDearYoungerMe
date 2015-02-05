@@ -217,7 +217,11 @@ font-family: "Proxima-Nova";
 }
 
 #dym-description{
+<<<<<<< HEAD
 
+=======
+  position:relative;
+>>>>>>> 9d86665d3a6738cd662767f45e1f0e47a6587ca8
   text-align: left;
 
 }
@@ -239,6 +243,7 @@ font-family: "Proxima-Nova";
   word-spacing: -2px;
   color: #5c5c5c;
 
+<<<<<<< HEAD
 
 }
 
@@ -249,6 +254,49 @@ font-family: "Proxima-Nova";
 
 }
 
+=======
+
+}
+
+#videotxt{
+
+  padding-bottom: 100px;
+  margin-left: 230px;
+  font-family: "Proxima-Nova";
+
+
+}
+
+#overlayvid{
+
+  background-color: black;
+  position:absolute;
+  width: 485px ;
+  height: 392px ;
+  float: right;
+}
+
+.dymvideo{
+
+    position: relative;
+    margin-bottom: 47px;
+    right: 0px;
+    width: 998px;
+    height: 558px;
+
+   
+}
+
+.playdym{
+
+  position: absolute;
+  margin: 200px;
+  margin-top: 150px;
+
+
+}
+
+>>>>>>> 9d86665d3a6738cd662767f45e1f0e47a6587ca8
 
 
 /*.taglinetext{
@@ -289,16 +337,7 @@ font-family: "Proxima-Nova";
   z-index: 2;
 }
 
-video.DYMvideo{
 
-    position: relative;
-    margin-bottom: 47px;
-    right: 0px;
-    width: 998px;
-    height: 558px;
-
-   
-}
 
 .vidtxtbox{
   position: absolute;
@@ -309,6 +348,18 @@ video.DYMvideo{
 
 }
 
+<<<<<<< HEAD
+.vidtxtbox{
+  position: absolute;
+  left: 232px;  
+  bottom: 3px;
+  font-size:16px;
+
+
+}
+
+=======
+>>>>>>> 9d86665d3a6738cd662767f45e1f0e47a6587ca8
 
 p#videotxt{
 
@@ -413,6 +464,7 @@ font-family: "Proxima-Nova";
 
 }
 /*Container for the Grid*/
+<<<<<<< HEAD
 
 #thegrid{
 
@@ -426,10 +478,28 @@ font-family: "Proxima-Nova";
 
     padding-top:40px;
 
+=======
+
+#thegrid{
+
+  margin-top: 75px;
+>>>>>>> 9d86665d3a6738cd662767f45e1f0e47a6587ca8
+
+}
+
+/*Grid Contents*/
+
+.gridcontents{
+
+<<<<<<< HEAD
+=======
+    padding-top:40px;
+
 
 }
 
 
+>>>>>>> 9d86665d3a6738cd662767f45e1f0e47a6587ca8
 
 /*Header of Leaders At Inflection*/
 .leaderheader{
