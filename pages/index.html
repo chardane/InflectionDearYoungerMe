@@ -13,27 +13,22 @@
             <!-- Google font Montserrat -->
             <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-            <!-- Bootstrap Core CSS -->
-            
-              <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">  
+            <!-- Bootstrap -->
+            <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+            <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">  
 
             <!-- Custom CSS's -->
 
             <link rel="stylesheet" type="text/css" href="../assets/css/LandingPage.css">
-          <!--   <link rel="stylesheet" type="text/css" href="full-width-pics.css"> -->
-
-
+        
             <!-- FontAwesome -->
             <link rel="stylesheet" href="../assets/bootstrap/css/font-awesome.min.css">
 
-
             <!-- jQuery -->
             <script src="../assets/js/jquery-1.11.2.min.js"></script>
+            <script type="text/javascript" src="../assets/js/jquery.paulund_modal_box.js"></script>
 
-            <script src="../assets/js/jquery.js" type="text/javascript" charset="utf-8"></script>
-            <link rel="stylesheet" href="../assets/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-            <script src="../assets/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-
+           
         
 
         </head>
@@ -99,10 +94,12 @@
 
 
 
+        
+            
             <div class="dymvideo">
                 
-
-            <a  rel="prettyPhoto" href="../assets/vids/DearYoungerMe.m4v"> <img  class="col-lg-6" src="../assets/imgs/landing/Videoheader.png"> </a>
+            <a class="paulund_modal" ><img class="playdym" src="../assets/imgs/landing/button.png"></a>
+            <a  ="#"> <img  src="../assets/imgs/landing/Videoheader.png"> </a>
             <div id="videotxt" class="col-lg-10">Women at Inflection Talk about Dear Younger Me</div>
 
 
@@ -124,8 +121,9 @@
 
 
 
+        </div>
     </div>
-</div>
+
 
 
 
@@ -331,7 +329,7 @@
                         <div id="profilebox">
 
                 <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-                <img class="profilepic" src="../assets/imgs/landing/palcehold.png">
+                <img class="profilepic" src="../assets/imgs/landing/placehold.png">
 
                 <div class="profiletext">
                     <p class="bioinfo">Michelle Steinbeck</p>
@@ -567,44 +565,33 @@
        
 
 
-            <!-- jQuery -->
-            <script src="../assets/bootstrap/js/jquery-1.11.2.min.js"></script>
+            
            
 
-            <!-- Bootstrap Core JavaScript -->
-            <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 
-
-            <!-- Video -->
-
-            <script src="http://www.google.com/jsapi" type="text/javascript"></script>
-    <script type="text/javascript">
-        google.load("jquery", "1");
-    </script>
     
+    <script type="text/javascript">
+
+
+    $(document).ready(function(){
+    
+    $('.paulund_modal').paulund_modal_box();
+    
+});
+
+    </script>
+
+
+
     <script type="text/javascript" charset="utf-8">
-  $(document).ready(function(){
-    $("a[rel^='prettyPhoto']").prettyPhoto();
-  });
 
   $('#viewMore').click(function(){
 
     $('.gridghost').slideToggle('slow')
-      // $('#viewMore') .detach();
-      
   });
 </script>
 
 
-    <script type="text/javascript">
-
-
-
-
-
-
-
-    </script>
 
 
         </body>
