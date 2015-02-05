@@ -217,7 +217,7 @@ font-family: "Proxima-Nova";
 }
 
 #dym-description{
-
+  position:relative;
   text-align: left;
 
 }
@@ -245,6 +245,37 @@ font-family: "Proxima-Nova";
 #videotxt{
 
   padding-bottom: 100px;
+  margin-left: 230px;
+  font-family: "Proxima-Nova";
+
+
+}
+
+#overlayvid{
+
+  background-color: black;
+  position:absolute;
+  width: 485px ;
+  height: 392px ;
+  float: right;
+}
+
+.dymvideo{
+
+    position: relative;
+    margin-bottom: 47px;
+    right: 0px;
+    width: 998px;
+    height: 558px;
+
+   
+}
+
+.playdym{
+
+  position: absolute;
+  margin: 200px;
+  margin-top: 150px;
 
 
 }
@@ -289,16 +320,7 @@ font-family: "Proxima-Nova";
   z-index: 2;
 }
 
-video.DYMvideo{
 
-    position: relative;
-    margin-bottom: 47px;
-    right: 0px;
-    width: 998px;
-    height: 558px;
-
-   
-}
 
 .vidtxtbox{
   position: absolute;
