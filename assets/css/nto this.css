@@ -217,18 +217,12 @@ font-family: "Proxima-Nova";
 }
 
 #dym-description{
-<<<<<<< HEAD
-
-=======
   position:relative;
->>>>>>> 9d86665d3a6738cd662767f45e1f0e47a6587ca8
   text-align: left;
-
 }
 
 
 .dym-des-hdr{
-
   font-family: "Karbon-semibold";
   font-size:38px;
   color: #3c3c3c;
@@ -242,20 +236,6 @@ font-family: "Proxima-Nova";
   line-height: 30pt;
   word-spacing: -2px;
   color: #5c5c5c;
-
-<<<<<<< HEAD
-
-}
-
-#videotxt{
-
-  padding-bottom: 100px;
-
-
-}
-
-=======
-
 }
 
 #videotxt{
@@ -263,7 +243,6 @@ font-family: "Proxima-Nova";
   padding-bottom: 100px;
   margin-left: 230px;
   font-family: "Proxima-Nova";
-
 
 }
 
@@ -296,114 +275,6 @@ font-family: "Proxima-Nova";
 
 }
 
->>>>>>> 9d86665d3a6738cd662767f45e1f0e47a6587ca8
-
-
-/*.taglinetext{
-
-    color: white;
-    font-size: 24px;
-    padding-top: 10px;
-    font-weight: lighter;
-    font-family: "Karbon";
-    line-height: 1.5em;
-    padding: 10px;
-}
-
-
-
-
-.simple-video-wrapper {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  /*height: 253px;*/
-/*  width: 453px;
-  margin: 0 auto;
-  position: relative;
-  left: 267px;
-  
-}
-
-.simple-video-overlay {
-  background: rgba(0,0,0,0.2) url(button.png) 50% 50% no-repeat;
-  cursor: pointer;
-  display: block;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 2;
-}
-
-
-
-.vidtxtbox{
-  position: absolute;
-  left: 232px;  
-  bottom: 3px;
-  font-size:16px;
-
-
-}
-
-<<<<<<< HEAD
-.vidtxtbox{
-  position: absolute;
-  left: 232px;  
-  bottom: 3px;
-  font-size:16px;
-
-
-}
-
-=======
->>>>>>> 9d86665d3a6738cd662767f45e1f0e47a6587ca8
-
-p#videotxt{
-
-  margin-left: 414px;
-  font-weight: bold;
-  
-}
-
-embed-responsive .embed-responsive-item,
-.embed-responsive iframe,
-.embed-responsive embed,
-.embed-responsive object,
-.embed-responsive video {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 486px;
-  max-height: 393px;
-  border: 0;
-}
-
-
-.videocontents{
-
-    margin-top: 115px;
-}
-
-.DYMsocial{
-
-position: absolute;
-left: 0px;
-bottom: -139px;
-font-size: 19px;
-font-family: "Proxima-Nova";
-
-}
-
-.socialtxt{
-
-  margin-right: 20px;
-  color: #797979;
-
-}*/
 
 .fa-facebook-square:before{
 
@@ -464,42 +335,15 @@ font-family: "Proxima-Nova";
 
 }
 /*Container for the Grid*/
-<<<<<<< HEAD
 
 #thegrid{
-
   margin-top: 75px;
-
 }
 
 /*Grid Contents*/
-
 .gridcontents{
-
     padding-top:40px;
-
-=======
-
-#thegrid{
-
-  margin-top: 75px;
->>>>>>> 9d86665d3a6738cd662767f45e1f0e47a6587ca8
-
 }
-
-/*Grid Contents*/
-
-.gridcontents{
-
-<<<<<<< HEAD
-=======
-    padding-top:40px;
-
-
-}
-
-
->>>>>>> 9d86665d3a6738cd662767f45e1f0e47a6587ca8
 
 /*Header of Leaders At Inflection*/
 .leaderheader{
@@ -516,17 +360,14 @@ font-family: "Proxima-Nova";
 }
 /*Container for Profiles*/
 
-
 #procontainer{
- padding:70px;
- padding-bottom: 0px;
-
+  padding:70px;
+  padding-bottom: 0px;
 }
 
 #ghostcontainer{
-
   padding:0px 70px 0px 70px;
- }
+}
 
 #profilebox{
     position: relative;
@@ -642,8 +483,6 @@ font-family: "Proxima-Nova";
 }
 
 
-}
-
 
 
 video {
@@ -654,19 +493,10 @@ video {
   min-height: 100%;
 }
 
-
-
-
-
-
 .gridghost{
 
   display: none;
 }
-
-
-
-
 
 /*Ryu*/
 
@@ -675,96 +505,3 @@ video {
   background-image: url("http://i.imgur.com/Rfj0a80.png");
 }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
