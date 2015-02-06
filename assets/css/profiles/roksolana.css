@@ -38,6 +38,11 @@ body{
 #dym{
 	background-color: #ffffff;
 	margin: 0 auto;
+	max-width: 1200px;
+}
+
+#maincontainer .row {
+	margin: 70px 0 45px;
 }
 
 .header{
@@ -72,11 +77,23 @@ body{
 }
 
 .star{
-	margin-left: 100px;
+	/*margin-left: 100px;*/
 }
 
 .row{
 	margin-top: 70px;
+}
+
+.row-wrapper {
+	text-align: left;
+	max-width: 280px;
+	margin: 0px 0 0 25%;
+}
+
+@media screen and (max-width: 768px) {
+	.row-wrapper {
+		margin: 0 auto;
+	}
 }
 
 #status{
@@ -85,7 +102,8 @@ body{
 	font-size: 21px;
 	margin-top: 70px;
 	margin-bottom: 35px;
-	margin-left: 100px;
+	/*margin-left: 100px;*/
+	text-align: left;
 }
 #status h1{
 	text-align: left;
@@ -107,8 +125,6 @@ body{
 }
 
 .mediaicons {
-    position: absolute;
-    left: 112px;
     /*-webkit-transition: color #444172;
     transition: color #444172;*/
     color: #444172;
@@ -123,7 +139,8 @@ body{
 }
 
 .blurb{
-	margin-right: 115px;
+	margin-left: 5%;
+	max-width: 650px;
 }
 .one{
 	font-family: Proxima Nova;
@@ -176,7 +193,6 @@ body{
 	font-family: Proxima Nova;
 	font-style: Regular;
 	font-size: 16px;
-	margin-bottom: 65px;
 	text-align: left;
 }
 
