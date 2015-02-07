@@ -1,19 +1,41 @@
 @font-face{
-	font-family: 'Karbon-semibold';
-	src:
-	local('Karbon-semibold'), 
-	local('Karbon-semibold')
-	url('../fonts/Karbon-semibold.otf');
-	;
+
+font-family: 'Karbon-Semibold';
+src:
+    local('Karbon-Semibold'),
+    local('Karbon-Semibold'),
+    url('../../fonts/Karbon-Semibold.otf');
+  ;
 }
 
 @font-face{
-	font-family: 'Karbon';
-	src:
-	local('Karbon'), 
-	local('Karbon')
-	url('../fonts/Karbon-Regular.otf');
-	;
+font-family: "Karbon";
+  src:
+      local("Karbon"),
+      local("Karbon"),
+      url("../../fonts/Karbon-Light.otf")  format("opentype");
+}
+
+@font-face{
+  font-family: "Proxima-Nova-Regular";
+  src:
+      local("Proxima-Nova-Regular")
+      local("Proxima-Nova-Regular")
+      url("../../fonts/Mark Simonson - Proxima Nova Regular.otf")
+
+  ;
+
+}
+
+@font-face{
+  font-family: "Proxima-Nova-Semibold";
+  src:
+      local("Proxima-Nova-Semibold")
+      local("Proxima-Nova-Semibold")
+      url("../../fonts/Mark Simonson - Proxima Nova Semibold.otf")
+
+  ;
+
 }
 
 
@@ -52,6 +74,7 @@ body{
 	height: 185px;
 	background-color: #ffffff; 
 	display: block;
+	background-size: cover;
 }
 
 .title{
@@ -64,13 +87,13 @@ body{
 }
 
  .title h1{
-	font-family: Proxima Nova;
+	font-family: Proxima-Nova;
 	font-style: italic;
 	font-size: 32px;
 	color: white;
 }
 .title h2{
-	font-family: Proxima Nova;
+	font-family: Proxima-Nova;
 	font-style: light;
 	font-size: 19px;
 	color: white;
@@ -96,13 +119,12 @@ body{
 	}
 }
 
-#status{
+/*#status{
 	font-family: 'Karbon-semibold';
-	font-style: Regular;
 	font-size: 21px;
-	margin-top: 70px;
+	margin-top: 35px;
 	margin-bottom: 35px;
-	/*margin-left: 100px;*/
+	/*margin-left: 100px;
 	text-align: left;
 }
 #status h1{
@@ -115,13 +137,26 @@ body{
 	font-size: 21px;
 	text-align: left;
 	margin-right: 65px;
+}*/
+
+#prostatus{
+	font-family: 'Karbon-Semibold';
+	font-size: 24px;
+	text-align: left;
+	color: #3c3c3c;
+	margin-top: 20px;
 }
 
-#status p{
-	font-family: Karbon;
-	font-style: Regular;
+#substatus{
+	font-family: 'Karbon';
 	font-size: 21px;
-	text-align: left;
+	color: #5c5c5c;
+}
+
+#share{
+	font-family: 'Karbon';
+	font-size: 21px;
+	color: #5c5c5c;
 }
 
 .mediaicons {
@@ -143,19 +178,19 @@ body{
 	max-width: 650px;
 }
 .one{
-	font-family: Proxima Nova;
-	font-style: Semibold;
+	font-family: 'Proxima-Nova-Semibold';
 	font-size: 24px;
 	text-align: left;
 	margin-bottom: 0px;	
+	color: #3c3c3c;
 }
 
 .two{
-	font-family: Proxima Nova;
-	font-style: Regular;
+	font-family: 'Proxima-Nova';
 	font-size: 19px;
 	text-align: left;
-	margin-bottom: 50px;
+	margin-bottom: 45px;
+	color: #5c5c5c;
 }
 
 .img-responsive{
@@ -164,7 +199,7 @@ body{
 }
 
 #caption{
-	font-family: Proxima Nova;
+	font-family: 'Proxima-Nova';
 	font-style: italic;
 	font-size: 16px;
 	text-align: left;
@@ -177,21 +212,19 @@ body{
 }
 
 #say h4{
-	font-family: Proxima Nova;
-	font-style: Semibold;
+	font-family: 'Proxima-Nova-Semibold';
 	font-size: 24px
 }
 
 #say h5{
-	font-family: Proxima Nova;
+	font-family: 'Proxima-Nova';
 	font-style: Regular;
 	font-size: 19px;
 	margin: 1em 0;
 }
 
 .interest{
-	font-family: Proxima Nova;
-	font-style: Regular;
+	font-family: 'Proxima-Nova-Regular';
 	font-size: 16px;
 	text-align: left;
 }
