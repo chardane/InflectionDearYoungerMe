@@ -83,10 +83,10 @@ font-family: 'Karbon-semibold';
 
 
 
-.row {
-  margin-bottom: 25px;
+.row{
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 25px;
 
 }
 
@@ -95,13 +95,13 @@ font-family: 'Karbon-semibold';
 	background: url('dym-mainHero.png') no-repeat center center scroll;
   padding: 17px 0;
   background-size: 100% 100%;
-  margin-top: 100px;
+
     
 }
 
 .img-center {
 	margin: 0 auto;
-  padding-top: 160px;
+  padding-top: 107px;
   width: 160px;
 }
 
@@ -134,8 +134,8 @@ font-family: 'Karbon-semibold';
 
 .landingbtn{
 
-    padding-top:65px;
-    padding-bottom: 40px;
+    padding-top:39px;
+    padding-bottom: 4px;
     vertical-align: middle;
 
 }
@@ -161,10 +161,7 @@ font-family: 'Karbon-semibold';
 
 .tagline{
 
-  margin-top: 15px;
-  padding-top: 40px;
-
-
+  margin-top: 24px;
 }
 
 .taglinetext{
@@ -210,7 +207,7 @@ font-family: "Proxima-Nova";
 
 .about-content{
 
-  padding-top:130px;
+  padding-top:96px;
   padding-left: 112px;
   padding-right: 112px; 
 
@@ -219,6 +216,7 @@ font-family: "Proxima-Nova";
 #dym-description{
   position:relative;
   text-align: left;
+  padding-left: 1px;
 }
 
 
@@ -233,15 +231,16 @@ font-family: "Proxima-Nova";
 
   font-family: "Proxima-Nova";
   font-size: 19px;
-  line-height: 30pt;
+  text-align: left;
+  line-height: 24pt;
   word-spacing: -2px;
   color: #5c5c5c;
 }
 
 #videotxt{
-
-  padding-bottom: 100px;
-  margin-left: 230px;
+  padding-top: 7px;
+  padding-bottom: 88px;
+  margin-left: 246px;
   font-family: "Proxima-Nova";
 
 }
@@ -258,15 +257,22 @@ font-family: "Proxima-Nova";
 .dymvideo{
 
     position: relative;
-    margin-bottom: 47px;
     right: 0px;
     width: 998px;
-    height: 558px;
-
-   
+    bottom: -24px;
 }
 
 .playdym{
+
+  position: absolute;
+  margin: 200px;
+  margin-top: 150px;
+  cursor: pointer;
+
+
+}
+
+#playdym{
 
   position: absolute;
   margin: 200px;
@@ -286,6 +292,12 @@ font-family: "Proxima-Nova";
 
 }
 
+.modal-header {
+  min-height: 16.42857143px;
+  padding: 15px;
+  
+}
+
 @media (min-height: 768px){
   .modal-dialog {
 
@@ -300,53 +312,69 @@ font-family: "Proxima-Nova";
   position: relative;
 }
 
-.fa-facebook-square:before{
 
-  content: "/f082";
+
+.DYMsocial{
+
+  font-family: "Proxima-Nova";
+  position: absolute;
+  bottom: 19px ;
+
+}
+
+.socialtxt{
+
+  font-size: 19px;
+  margin-right: 12px;
+
+}
+
+.fa-facebook-square{
+
  /* color: #3B5998;*/
   color: #484574;
+   transition: color 1s;
+   margin-right: 4px;
 }
-.fbook{
 
-  margin-right: 20px;
-  color: #3B5998;
-  }
+.fa-facebook-square:hover{
+  color: #3c3d4d;
+}
 
-.fa-linkedin-square:before{
+ 
 
- /*color: #007bb6;*/
+.fa-linkedin-square{
  color: #484574;
+  margin-right: 4px;
+  margin-left: 4px;
+  transition: color 1s;
 }
 
-.lnkdn{
-  margin-right: 20px;
-  margin-left: 20px;
 
-
+.fa-linkedin-square:hover{
+ color: #3c3d4d;
 }
 
-.fa-twitter-square:before{
-  /*color: #4099ff;*/
+.fa-twitter-square{
   color: #484574;
+  margin-left: 4px;
+  transition: color 1s;
 }
 
-/*.tweet{
-  margin-left: 20px;
-  
+.fa-twitter-square:hover{
+  color:#3c3d4d;
 }
 
 .logoicons{
     padding-bottom: 74px;
     max-width: 100px;
-    margin-right: 290px;
+    margin-right: 301px;
     display: inline-flex;
+  }
 
 
 
-  }*/
-
-
-    /*Diveder for g*/
+    /*Diveder for Grid*/
 
 
 
@@ -457,10 +485,39 @@ font-family: "Proxima-Nova";
 
 /* Random */
 
-.btn .btn-default{
-    background-color: #3c3d4d;
-    width: 205px;
 
+.DYMbtn {
+  background-color: #3c3d4d;
+  width: 205px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: white;
+}
+
+}
+
+.DYMbtn:hover{
+
+  background-color:#3c3d4d;
+  color: #fff;
+  
 }
 
 
