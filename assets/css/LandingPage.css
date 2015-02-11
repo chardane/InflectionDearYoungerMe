@@ -240,7 +240,7 @@ font-family: "Proxima-Nova";
 #videotxt{
   padding-top: 7px;
   padding-bottom: 88px;
-  margin-left: 246px;
+  margin-left: 228px;
   font-family: "Proxima-Nova";
 
 }
@@ -326,6 +326,7 @@ font-family: "Proxima-Nova";
 
   font-size: 19px;
   margin-right: 12px;
+  color: #5c5c5c;
 
 }
 
@@ -426,8 +427,9 @@ font-family: "Proxima-Nova";
     height: 322px;
     background-color: #eef1f3;
     max-width: 230px;
-    
+    color: #3c3d4d;
 }
+
 
 /*Profile Layout*/
 
@@ -435,9 +437,8 @@ font-family: "Proxima-Nova";
 
     max-height: 230px;
     position: relative;
-  
-
 }
+
 
 .profiletext{
 
@@ -455,11 +456,12 @@ font-family: "Proxima-Nova";
   font-size: 19px;
   margin-right: 10px;
 }
+
 .bioinfo:hover{
 
   color: #3c3d4d;
-
 }
+
 
 
 
