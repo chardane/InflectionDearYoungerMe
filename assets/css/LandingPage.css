@@ -38,9 +38,9 @@ font-family: "Karbon";
 
 }
 
-body{
+html{
 
-  background-color: #eaeaea;
+  background-color: #f6f8fa;
 }
 
 .container-fluid{
@@ -200,7 +200,7 @@ font-family: "Proxima-Nova";
     line-height: 2em;
     max-width: 1215px;
     max-height: 2380px;
-    background-color: #f6f8fa;
+    background-color: #fff;
     margin: 0 auto;
 
 }
@@ -240,7 +240,7 @@ font-family: "Proxima-Nova";
 #videotxt{
   padding-top: 7px;
   padding-bottom: 88px;
-  margin-left: 228px;
+  right: 16px;
   font-family: "Proxima-Nova";
 
 }
@@ -254,11 +254,10 @@ font-family: "Proxima-Nova";
   float: right;
 }
 
-.dymvideo{
+#dymvideo{
 
     position: relative;
     right: 0px;
-    width: 998px;
     bottom: -24px;
 }
 
@@ -390,7 +389,7 @@ font-family: "Proxima-Nova";
 /*Container for the Grid*/
 
 #thegrid{
-  margin-top: 75px;
+  margin-top: 60px;
 }
 
 /*Grid Contents*/
