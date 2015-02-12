@@ -9,8 +9,8 @@
 		var options = $.extend({
 			height : "380px",
 			width : "500px",
-			top: "40%",
-			left: "29%",
+			top: "30%",
+			left: "24%",
 		},prop);
 				
 		return this.click(function(e){

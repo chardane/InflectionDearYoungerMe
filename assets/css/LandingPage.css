@@ -271,11 +271,50 @@ font-family: "Proxima-Nova";
 
 }
 
+<<<<<<< Updated upstream
 #playdym{
 
   position: absolute;
   margin: 200px;
   margin-top: 150px;
+=======
+.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+     -moz-transition: -moz-transform 0.3s ease-out;
+       -o-transition: -o-transform 0.3s ease-out;
+          transition: transform 0.3s ease-out;
+}
+
+.modal.in .modal-dialog {
+
+}
+
+@media (min-height: 768px){
+  .modal-dialog {
+
+    width: 600px;
+    margin: 30px auto;
+    height: 400px;
+  }
+}
+
+.modal-body {
+  position: relative;
+}
+
+/*.taglinetext{
+
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-family: "Karbon";
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+
+>>>>>>> Stashed changes
 
 
 }
