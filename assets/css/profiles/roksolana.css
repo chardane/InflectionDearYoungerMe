@@ -1,130 +1,362 @@
+@font-face{
 
-#image{
-	display: block;
-	margin: 0 auto;
-	max-width: 1100px;
+font-family: 'Karbon-Semibold';
+src:
+    local('Karbon-Semibold'),
+    local('Karbon-Semibold'),
+    url('../../fonts/Karbon-Semibold.otf');
+  ;
+}
+
+@font-face{
+font-family: 'Karbon';
+  src:
+      local('Karbon'),
+      local('Karbon'),
+      url("../../fonts/Karbon-Light.otf");
+      ;
+}
+
+@font-face{
+  font-family: "Proxima-Nova-Regular";
+  src:
+      local("Proxima-Nova-Regular")
+      local("Proxima-Nova-Regular")
+      url("../../fonts/Mark Simonson - Proxima Nova Light.otf");
+
+  ;
+
+}
+
+@font-face{
+  font-family: "Proxima-Nova-Semibold";
+  src:
+      local("Proxima-Nova-Semibold")
+      local("Proxima-Nova-Semibold")
+      url("../../fonts/Mark Simonson - Proxima Nova Alt Light.otf");
+;
+}
+
+@font-face{
+	font-family: 'Proxima-Nova-Light';
+	src:
+	local('Proxima-Nova-Light'),
+	local('Proxima-Nova-Light'),
+	url('../../fonts/Mark Simonson - Proxima Nova Alt Light.otf');
+	;
+}
+
+
+
+#subhead{
+	font-family: 'Proxima-Nova-Light';
+	font-size: 22px;
 	text-align: center;
+	color: white;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	top: 110px;
+	left: 950px;
+	margin-top: 10px;
+}
+
+#logo-img{
+	margin-top: 45px;
+
+}
+
+body{
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: #eaeaea;
+	text-align: center;
+	min-width: 320px;
+}
+
+#wrapper{
+	max-width: 1580px;
+	min-width: 320px;
+	margin: 0 auto;
+	display: block;
 	
 }
-#image img{
-	height: 40%;
-	width: 40%;
-}
 
-.setting{
-	background-color: #f6f8fa;
+#dym{
+	background-color: #ffffff;
 	margin: 0 auto;
-	max-width: 1100px;
+	max-width: 1200px;
 }
 
-#star{
-	font-family: Karbon;
-	font-style: Bold;
-	font-size: 48px;
-	margin-left: 60px;
-	margin-top: 20px;
-	padding-top: 20px;
+#maincontainer .row {
+	margin: 70px 0 45px;
 }
 
-#status{
-	font-family: Karbon;
-	font-style: Regular;
-	font-size: 30px;
-	margin-top: 10px;
-	margin-left: 60px;
-	float: left;
-	width: 850px;
-}
-
-#logo{
+.header{
+	position: relative;
+	background-image: url("../../imgs/profiles/header.jpg");
+	width: 100%;
+	height: 185px;
+	background-color: #ffffff; 
 	display: block;
-	margin:0 auto;
-	max-width: 1100px;
-	text-align: right;
+	background-size: cover;
 }
 
-#logo img{
-	padding: 20px;
+.star{
+	/*margin-left: 100px;*/
+}
+
+.row{
+	margin-top: 70px;
+}
+
+.row-wrapper {
+	text-align: left;
+	max-width: 280px;
+	margin: 0px 0 0 25%;
+}
+
+@media screen and (max-width: 768px) {
+	.row-wrapper {
+		margin: 0 auto;
+	}
+}
+
+/*#status{
+	font-family: 'Karbon-semibold';
+	font-size: 21px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	/*margin-left: 100px;
+	text-align: left;
+}
+#status h1{
+	text-align: left;
+	font-family: 'Karbon-semibold';
+	
+}
+#status h2{
+	font-family: 'Karbon';
+	font-size: 21px;
+	text-align: left;
+	margin-right: 65px;
+}*/
+
+#prostatus{
+	font-family: Karbon-Semibold;
+	font-size: 24px;
+	text-align: left;
+	color: #3c3c3c;
+	margin-top: 20px;
+	margin-bottom: 2px;
+}
+
+#substatus{
+	font-family: Karbon-Light;
+	font-size: 21px;
+	color: #5c5c5c;
+	margin-bottom: 20px;
+}
+
+#insights{
+	font-family: Karbon-Light;
+	font-size: 21px;
+	color: #5c5c5c;
+	margin-bottom: 20px;
+}
+
+.mediaicons {
+    color: #444172;
+    text-indent: 1em;
+    position: absolute;
+    margin-left: -25px;
+
+}
+
+
+.mediaicons:hover{
+	color: #3c3d4d;
 }
 
 .blurb{
-	font-family: Karbon;
-	font-style: Regular;
-	font-size: 28px;
-	text-align: center;
-	margin-top: 85px;
-	margin-left: 175px;
-	margin-right: 175px;
+	margin-left: 5%;
+	max-width: 650px;
+}
+.one{
+	font-family: 'Proxima-Nova-Semibold';
+	font-size: 24px;
+	text-align: left;
+	margin-bottom: 0px;	
+	color: #3c3c3c;
 }
 
-.star-bio{
-	font-family: Myriad Pro;
-	font-style: Regular;
-	font-size: 21px;
-	text-align: center;
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-top: 35px;
-	margin-bottom: 70px;
+.two{
+	font-family: 'Proxima-Nova-Regular';
+	font-size: 19px;
+	text-align: left;
+	margin-bottom: 40px;
+	color: #5c5c5c;
 }
 
-.fun-facts{
-	font-family: Myriad Pro;
-	font-style: Regular;
-	font-size: 15px;
-	margin-top: 65px;
-	margin-bottom: 65px;
-	margin-left: 80px;
-	margin-right: 80px;
-}
-
-#bold{
-	font-family: Myriad Pro;
-	font-style: Bold;
-}
-
-#recap{
-	font-family: Myriad Pro;
-	font-style: Regular;
-	font-size: 15px;
-	margin-top: 50px;
-	margin-left: 50px;
-	margin-right: 20px;
-	margin-bottom: 50px;
-	float: left;
-	width: 200px;
-}
-#team{
-	display: block;
-	margin:0 auto;
-	max-width: 1100px;
-}
-#team img{
-	width: 75%;
+.img-responsive{
+	max-width: 100%;
 	height: auto;
 }
 
-.women{
-	font-family: Karbon;
-	font-style: Regular;
-	font-size: 42px;
-	text-align: center;
-	margin-top: 155px;
+#caption{
+	font-family: 'Proxima-Nova';
+	font-style: italic;
+	font-size: 16px;
+	text-align: left;
 	margin-bottom: 60px;
 }
 
-h3{
-	font-family: Myriad Pro;
-	font-style: Semibold;
-	font-size: 18px;
+#say{
 	text-align: left;
-	
+	margin-bottom: 85px;
 }
 
-h4{
-	font-family: Myriad Pro;
+#say h4{
+	font-family: 'Proxima-Nova-Semibold';
+	font-size: 24px
+}
+
+#say h5{
+	font-family: 'Proxima-Nova';
 	font-style: Regular;
-	font-size: 15px;
+	font-size: 19px;
+	margin: 1em 0;
+}
+
+.interest{
+	font-family: 'Proxima-Nova-Regular';
+	font-size: 16px;
 	text-align: left;
-	
+	margin-bottom: -15px;
+}
+
+a:active{
+	color: #444172;
+}
+
+#griddvdr{
+
+    border-top: 0 solid #9f9f9f;
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+#thegrid{
+
+  margin-top: 75px;
+
+}
+
+
+
+/*Header of Leaders At Inflection*/
+.leaderheader{
+  position: relative;
+}
+
+.lhtext{
+  position: absolute;
+  color:#3c3c3c;
+  left:100px;
+  bottom:-40px;
+  font-size: 38px;
+  font-family: "Karbon-semibold";
+}
+/*Container for Profiles*/
+
+
+#procontainer{
+ padding:70px;
+ padding-bottom: 0px;
+
+}
+
+#ghostcontainer{
+
+  padding:0px 70px 0px 70px;
+ }
+
+.rok{
+	height: 330px;
+	width: 230px;
+	background-color: #eef1f3;
+	position: relative;
+} 
+
+#profilebox{
+    /*position: relative;
+    height: 325px;
+    background-color: #eef1f3;
+    max-width: 230px;
+    */
+    margin-top: -40px;
+}
+
+/*Profile Layout*/
+
+.profilepic{
+    max-height: 230px;
+    width: auto;
+    position: relative;
+}
+
+.profiletext{
+  /*padding: 20px;*/
+  text-align: left;
+}  
+
+
+.bioinfo {
+   color: #444172;
+  font-family: "Proxima-Nova-Semibold";
+  font-size: 19px;
+  margin-right: 10px;
+}
+
+.bioinfo:hover{
+  color: #3c3d4d;
+}
+
+.biosubinfo{
+   font-weight: lighter;
+   font-family: "Proxima-Nova";
+   font-size: 15px;
+   /*margin-bottom: -5px;*/
+   /*margin-top: -5px;*/
+}
+
+.viewbtn{
+
+  
+  padding-top: 26px;
+  padding-bottom: 20px;
+
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #3b3b4c;
+  border-color: #ccc;
+  width: 130px;
+  height: 34px;
+  border-radius: 5px;
+  font-family: "Proxima-Nova-Semibold";
+  font-size:13.84px;
+}
+
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #24242e;
+  border-color: #3b3b4c;
 }
