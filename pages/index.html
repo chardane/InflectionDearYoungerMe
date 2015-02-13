@@ -10,12 +10,9 @@
             <meta name="author" content="">
 
             <title>Dear Younger Me</title>
+
             <!-- Google font Montserrat -->
             <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-            <!-- Bootstrap -->
-            <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-            <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">  
 
             <!-- Custom CSS's -->
 
@@ -26,7 +23,19 @@
 
             <!-- jQuery -->
             <script src="../assets/js/jquery-1.11.2.min.js"></script>
+            <script src="../assets/js/jquery.colorbox.js"></script>
             <script type="text/javascript" src="../assets/js/jquery.paulund_modal_box.js"></script>
+
+           <!-- Bootstrap -->
+            <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+            <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">  
+
+             <!-- GH Color Box -->
+
+                <link rel="stylesheet" href="../assets/css/colorbox.css" />
+                <script src="../assets/js/jquery.colorbox-min.js"></script>
+                <script src="../assets/js/jquery.colorbox.js"></script>
+            
         
         </head>
 
@@ -58,60 +67,49 @@
 
         
 <div class="row">
-    <div class="about-content">
-        
-         <div id="dym-description" class="col-lg-6">
-                <h1 class="dym-des-hdr">About Dear Younger Me</h1>
-                <p class="dym-des-txt">The idea of reflecting on our professional journeys and sharing encouragement with our “younger selves” came from discussions amongst several of the women leaders at Inflection. We wanted to share what we’ve learned and the amazing experiences we’ve created for ourselves in the technology industry. We want every “younger me” to feel empowered to join and innovate this space.</p>
-         </div>
+        <div class="about-content">
 
-            <div id="videotxt" class="col-lg-10">Women at Inflection Talk about Dear Younger Me</div>
-            </div>
-
-    </div>
-</div>
-
-<!--         <div class="infosection">
-        <div class="innercontents">
-
-             
-        
-            <div align="center" class="embed-responsive embed-responsive-16by9">
-                
-                <div class="videocontents"> 
-
-
-                        <div class="DYMvid">
-                    <video height="382" width="485" class="embed-responsive-item" controls poster="../assets/imgs/landing/Videoheader.png">
-                      <source src="../assets/vids/DearYoungerMe.m4v" type="video/mp4">
-                    </video> 
-                        </div>
-
-
-                    <div class="vidtxtbox">
-                    <p id="videotxt">Women at Inflection talk about Dear Younger Me</p>
+            
+             <div id="dym-description" class="col-lg-6">
+                    <h1 class="dym-des-hdr">About Dear Younger Me</h1>
+                    <p class="dym-des-txt">The idea of reflecting on our professional journeys and sharing encouragement with our “younger selves” came from discussions amongst several of the women leaders at Inflection. We wanted to share what we’ve learned and the amazing experiences we’ve created for ourselves in the technology industry. We want every “younger me” to feel empowered to join and innovate this space.</p>
+                <div class="DYMsocial"><p class="socialtxt">Check our Dear Younger Me on social media:</p>
+                    <div class="logoicons">
+                        <a href="http://www.facebook.com/DearYoungerMe" target='_blank'><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a href="http://www.linkedin.com/DearYoungerMe" target="_blank"> <i class="fa fa-linkedin-square fa-2x"> </i> </a>
+                        <a href="http://twitter.com/dearyoungerme" target="_blank"> <i class="fa fa-twitter-square fa-2x"></i></a>
                     </div>
                 </div>
-                      <div class="col-lg-8 infoDYMHeader"><h2>About Dear Younger Me</h2>
-       <div> <p class="infoDYM">The idea of reflecting on our professional journeys and sharing encouragement with our "younger selves" came from discussions amongst several of the women leaders at inflection. We wanted to share what we've learned and the amazing experiences we've crearted for ourselves in the technology industry. We want every "younger me" to feel empowered to join and innovate this space.</p> </div>
 
-        <div class="DYMsocial"><p class="socialtxt">Check our Dear Younger Me on social media:</p>
-            <div class="logoicons">
-                   <div class="fbook"> <a href="#"><i href="#" class="fa fa-facebook-square fa-2x"></i></a> </div>
-                   <div class="lnkdn"> <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a> </div>
-                    <div class="tweet"> <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a> </div>
-                </div>
-        </div>
-                </div>
+             </div>
 
 
 
+             
 
+                    <div id="dymvideo" class="col-lg-6">
+
+    <!-- Link, which opens lightbox -->
+
+                        <img class="videopic" src="../assets/imgs/landing/Videoheader.png">
+                        <div id="videotxt" class="col-lg-9">Women at Inflection Talk about Dear Younger Me</div>
+                        <a href="#link--how-it-works"> <img class="playdym" src="../assets/imgs/landing/button.png"> </a>
+
+                        <!-- Video Lightbox -->
+                            <div style="display: none">
+                                <div id="lightbox--how-it-works">
+                                        <iframe src="../assets/vids/DearYoungerMe.m4v" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="true" mozallowfullscreen="ture" webkitallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" width="800" height="450">&#160;</iframe>
+                                        
+                                        <div class="captions with-controls hidden" hidden="" aria-live="assertive" style="font-size: 18px;"></div>
+                                </div>
+                            
+
+
+                            </div>
+
+                    </div>
             </div>
-          
-
-            </div>
-        </div> -->
+</div>
 
                     <!-- Start of thegrid -->
 <div id="griddvdr"></div>
@@ -128,74 +126,77 @@
 
                                                         <!-- This is the container for profile box and content -->
         <div id="procontainer">
+            <div class="first4">
             <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="rok">
-                        <div id="profilebox">
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="rok">
+                            <div id="profilebox">
 
-                <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-               <a href="profiles/roksolana.html"> <img class="profilepic" src="../assets/imgs/landing/rok.png"> </a>
+                    <!-- <img class="profilepic" src="imgs/abeer.png"> -->
+                   <a href="profiles/roksolana.html"> <img class="profilepic" src="../assets/imgs/landing/rok.png"> </a>
 
-                <div class="profiletext">
-                    <div class="subinfo">    
-                        <p class="bioinfo">Roksolana Parygin</p>
-                        <p class="biosubinfo">Director of Email Marketing</p>
-                    </div>
-                </div>
-
+                    <div class="profiletext">
+                        <div class="subinfo">    
+                            <a href="profiles/roksolana.html"> <p class="bioinfo">Roksolana Parygin</p> </a>
+                            <p class="biosubinfo">Director of Email Marketing</p>
                         </div>
                     </div>
-                </div>
 
-
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="rok">
-                        <div id="profilebox">
-
-                <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-                <img class="profilepic" src="../assets/imgs/landing/maria-v.png">
-
-                <div class="profiletext">
-                    <p class="bioinfo">Maria Vassalo</p>
-                    <p class="biosubinfo">Lead Senior Visual Designer</p>
-                    <p class="titlesubinfo">Identity.com</p>
-                </div>   
-
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="rok">
-                        <div id="profilebox">
 
-                <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-                <img class="profilepic" src="../assets/imgs/landing/jee.png">
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="rok">
+                            <div id="profilebox">
 
-                <div class="profiletext">
-                    <p class="bioinfo">Jae Ko</p>
-                    <p class="biosubinfo">Lead Senior Visual Designer,</p>
-                    <p class="titlesubinfo">PeopelSmart.com</p>
-                </div>
+                    <!-- <img class="profilepic" src="imgs/abeer.png"> -->
+                    <a href=""><img class="profilepic" src="../assets/imgs/landing/maria-v.png"></a>
+
+                    <div class="profiletext">
+                        <a href=""><p class="bioinfo">Maria Vassalo</p></a>
+                        <p class="biosubinfo">Lead Senior Visual Designer</p>
+                        <p class="titlesubinfo">Identity.com</p>
+                    </div>   
+
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="rok">
-                        <div id="profilebox">
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="rok">
+                            <div id="profilebox">
 
-                <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-                <img class="profilepic" src="../assets/imgs/landing/abeer-k.png">
+                    <!-- <img class="profilepic" src="imgs/abeer.png"> -->
+                    <a href=""><img class="profilepic" src="../assets/imgs/landing/jee.png"></a>
 
-                <div class="profiletext">    
-                    <p class="bioinfo">Abeer Kadham</p>
-                    <p class="biosubinfo">Front-End Developer</p>
-                    <p class="titlesubinfo">Inflection.com</p>
-                </div>
-
+                    <div class="profiletext">
+                        <a href=""><p class="bioinfo">Jae Ko</p></a>
+                        <p class="biosubinfo">Lead Senior Visual Designer,</p>
+                        <p class="titlesubinfo">PeopelSmart.com</p>
+                    </div>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="rok">
+                            <div id="profilebox">
+
+                    <!-- <img class="profilepic" src="imgs/abeer.png"> -->
+                    <a href=""><img class="profilepic" src="../assets/imgs/landing/abeer-k.png"></a>
+
+                    <div class="profiletext">    
+                        <a href=""><p class="bioinfo">Abeer Kadham</p></a>
+                        <p class="biosubinfo">Front-End Developer</p>
+                        <p class="titlesubinfo">Inflection.com</p>
+                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -210,10 +211,10 @@
                         <div id="profilebox">
 
                 <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-                <img class="profilepic" src="../assets/imgs/landing/Hamida.png"> 
+                <a href=""><img class="profilepic" src="../assets/imgs/landing/Hamida.png"></a>
 
                 <div class="profiletext">
-                    <p class="bioinfo">Hamida Hamza</p>
+                    <a href=""><p class="bioinfo">Hamida Hamza</p></a>
                     <p class="biosubinfo">Director of People</p>
                 </div>
 
@@ -228,10 +229,10 @@
 
                 <!-- <img class="profilepic" src="imgs/abeer.png"> -->
 
-                <img class="profilepic" src="../assets/imgs/landing/placehold.png">
+                <a href=""><img class="profilepic" src="../assets/imgs/landing/placehold.png"></a>
 
                 <div class="profiletext">
-                    <p class="bioinfo">Michelle Steinbeck</p>
+                   <a href=""> <p class="bioinfo">Michelle Steinbeck</p></a>
                     <p class="biosubinfo">VP of Members Services</p>
                 </div>
 
@@ -244,10 +245,10 @@
                         <div id="profilebox">
 
                 <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-                <img class="profilepic" src="../assets/imgs/landing/profileGrid-arthi.jpg">
+                <a href=""><img class="profilepic" src="../assets/imgs/landing/profileGrid-arthi.jpg"></a>
 
                 <div class="profiletext">   
-                    <p class="bioinfo">Arthi Chordia</p>
+                    <a href=""><p class="bioinfo">Arthi Chordia</p></a>
                     <p class="biosubinfo">Senior Finance Manager</p>
                 </div>
                         </div>
@@ -259,10 +260,10 @@
                         <div id="profilebox">
 
                 <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-                <img class="profilepic" src="../assets/imgs/landing/Julie-P.png">
+                <a href=""><img class="profilepic" src="../assets/imgs/landing/Julie-P.png"></a>
 
                 <div class="profiletext">
-                    <a href=""></a><p class="bioinfo">Julie Price</p>
+                    <a href=""> <p class="bioinfo">Julie Price</p></a>
                     <p class="biosubinfo">Director of Product</p>
                     <p class="titlesubinfo">Indentity.com</p>
                 </div>
@@ -292,7 +293,7 @@
 
                 <div class="profiletext">
                     <div class="subinfo">    
-                        <p class="bioinfo">Roksolana Parygin</p>
+                       <a href=""> <p class="bioinfo">Roksolana Parygin</p> </a>
                         <p class="biosubinfo">Director of Email Marketing</p>
                     </div>
                 </div>
@@ -307,10 +308,10 @@
                         <div id="profilebox">
 
                 <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-                <img class="profilepic" src="../assets/imgs/landing/maria-v.png">
+                <a href=""><img class="profilepic" src="../assets/imgs/landing/maria-v.png"></a>
 
                 <div class="profiletext">
-                    <p class="bioinfo">Maria Vassalo</p>
+                    <a href=""><p class="bioinfo">Maria Vassalo</p> </a>
                     <p class="biosubinfo">Lead Senior Visual Designer</p>
                     <p class="titlesubinfo">Identity.com</p>
                 </div>   
@@ -324,11 +325,11 @@
                         <div id="profilebox">
 
                 <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-                <img class="profilepic" src="../assets/imgs/landing/jee.png">
+                <a href=""><img class="profilepic" src="../assets/imgs/landing/jee.png"></a>
 
                 <div class="profiletext">
-                    <p class="bioinfo">Jae Ko</p>
-                    <p class="biosubinfo">Lead Senior Visual Designer,</p>
+                   <a href=""> <p class="bioinfo">Jae Ko</p> </a>
+                    <p class="biosubinfo">Director of Visual Designer,</p>
                     <p class="titlesubinfo">PeopelSmart.com</p>
                 </div>
                         </div>
@@ -340,10 +341,10 @@
                         <div id="profilebox">
 
                 <!-- <img class="profilepic" src="imgs/abeer.png"> -->
-                <img class="profilepic" src="../assets/imgs/landing/abeer-k.png">
+                <a href=""><img class="profilepic" src="../assets/imgs/landing/abeer-k.png"></a>
 
                 <div class="profiletext">    
-                    <p class="bioinfo">Abeer Kadham</p>
+                    <a href=""><p class="bioinfo">Abeer Kadham</p></a>
                     <p class="biosubinfo">Front-End Developer</p>
                     <p class="titlesubinfo">Inflection.com</p>
                 </div>
@@ -369,10 +370,12 @@
 
                 </div>
                 <div class="row viewbtn">
-                        <div class="col-lg-12">
-                        <button id="viewMore" class="btn btn-default">VIEW MORE <i id="downarrow" class="fa fa-angle-down"></i></button>
-                        </div>
-                        </div>
+                        <div id="" class="col-lg-12">
+                        <button id="viewMore" class="DYMbtn">
+                            <span>View More</span> 
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                        
             </div>
 
         </div>
@@ -396,12 +399,48 @@
         <!-- End of Contanier -->
         </div>
 
+            <script>
+                $(document).ready(function(){
+                    //Assigning the Colorbox event to 'See How It Works' link
+                    $('[href="#link--how-it-works"]').colorbox({
+                        //inline: true,
+                        iframe: true,
+                        className: "video--colorbox", //We're adding a class to colorbox and the overlay to customize it
+                        opacity: 0.63,
+                        fixed: true,
+                        height: 450,
+                        maxWidth: 800,
+                        width: "95%",
+                        href: "#lightbox--how-it-works"
+                    });
+
+                    var video = $('.wistia_embed');
+                    video.autoplay = false;
+
+                });
+
+            </script>
+
+
     <script type="text/javascript" charset="utf-8">
 
-  $('#viewMore').click(function(){
+        $("#viewMore").click(function () {
+            $(this).find('span').text() == 'View More' ? $(this).find('span').text('View Less') : $(this).find('span').text('View More');
+            $('.gridghost').slideToggle('slow');
+            if($(this).find('i').hasClass('fa-angle-down')){
+                
+                $(this).find('.fa-angle-down').removeClass('fa-angle-down').addClass('fa-angle-up');
+            }
 
-    $('.gridghost').slideToggle('slow')
-  });
+            else{
+
+                $(this).find('.fa-angle-up').removeClass('fa-angle-up').addClass('fa-angle-down');
+            }
+            
+            
+
+        });
+
 </script>
 
 </body>
