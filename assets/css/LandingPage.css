@@ -86,7 +86,7 @@ font-family: 'Karbon-semibold';
 .row{
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 25px;
+ 
 
 }
 
@@ -240,7 +240,7 @@ font-family: "Proxima-Nova";
 #videotxt{
   padding-top: 7px;
   padding-bottom: 88px;
-  right: 16px;
+  right: 17px;
   font-family: "Proxima-Nova";
 
 }
@@ -256,108 +256,35 @@ font-family: "Proxima-Nova";
 
 #dymvideo{
 
-    position: relative;
-    right: 0px;
-    bottom: -24px;
+   
+    
 }
+
+.videopic
 
 .playdym{
 
   position: absolute;
-  margin: 200px;
+  margin: 220px;
   margin-top: 150px;
   cursor: pointer;
 
 
 }
 
-<<<<<<< Updated upstream
 #playdym{
 
   position: absolute;
   margin: 200px;
   margin-top: 150px;
-=======
-.modal.fade .modal-dialog {
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-     -moz-transition: -moz-transform 0.3s ease-out;
-       -o-transition: -o-transform 0.3s ease-out;
-          transition: transform 0.3s ease-out;
-}
-
-.modal.in .modal-dialog {
-
-}
-
-@media (min-height: 768px){
-  .modal-dialog {
-
-    width: 600px;
-    margin: 30px auto;
-    height: 400px;
-  }
-}
-
-.modal-body {
-  position: relative;
-}
-
-/*.taglinetext{
-
-    color: white;
-    font-size: 24px;
-    padding-top: 10px;
-    font-weight: lighter;
-    font-family: "Karbon";
-    line-height: 1.5em;
-    padding: 10px;
-}
-
-
->>>>>>> Stashed changes
 
 
 }
-
-.modal.fade .modal-dialog {
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-     -moz-transition: -moz-transform 0.3s ease-out;
-       -o-transition: -o-transform 0.3s ease-out;
-          transition: transform 0.3s ease-out;
-}
-
-.modal.in .modal-dialog {
-
-}
-
-.modal-header {
-  min-height: 16.42857143px;
-  padding: 15px;
-  
-}
-
-@media (min-height: 768px){
-  .modal-dialog {
-
-
-    width: 600px;
-    margin: 30px auto;
-    height: 400px;
-  }
-}
-
-.modal-body {
-  position: relative;
-}
-
 
 
 .DYMsocial{
 
   font-family: "Proxima-Nova";
-  position: absolute;
-  bottom: 19px ;
-
 }
 
 .socialtxt{
@@ -466,10 +393,17 @@ font-family: "Proxima-Nova";
     background-color: #eef1f3;
     max-width: 230px;
     color: #3c3d4d;
+    margin-top: 27px;
 }
 
 
 /*Profile Layout*/
+
+.first4{
+
+  margin-bottom: -4px;
+
+}
 
 .profilepic{
 
