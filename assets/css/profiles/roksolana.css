@@ -53,11 +53,12 @@ font-family: 'Karbon';
 	font-size: 22px;
 	text-align: center;
 	color: white;
-	position: absolute;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
 	top: 110px;
 	left: 950px;
-	transform: translate(-50%, -50%);
-	margin-top: 7px;
+	margin-top: 10px;
 }
 
 #logo-img{
