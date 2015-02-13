@@ -1,0 +1,15 @@
+
+.row{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#sections{
+	display: table-cell;
+	vertical-align: bottom;
+	height: 65px;
+}
+
+/*.compos{*/
+	/*margin-top: 100px;*/
+/*}*/
