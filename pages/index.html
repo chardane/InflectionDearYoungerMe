@@ -99,11 +99,11 @@
                         <!-- Video Lightbox -->
                             <div style="display: none">
                                 <div id="lightbox--how-it-works">
-                                        <iframe src="../assets/vids/DearYoungerMe.m4v" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="true" mozallowfullscreen="ture" webkitallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" width="800" height="450">&#160;</iframe>
+                                        <iframe src="../assets/vids/DearYoungerMe.m4" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="true" mozallowfullscreen="ture" webkitallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" width="800" height="450">&#160;</iframe>
                                         
-                                        <div class="captions with-controls hidden" hidden="" aria-live="assertive" style="font-size: 18px;"></div>
+                                        
                                 </div>
-                            
+                            <div class="captions with-controls hidden" hidden="" aria-live="assertive" style="font-size: 18px;"></div>
 
 
                             </div>
@@ -404,8 +404,7 @@
                 $(document).ready(function(){
                     //Assigning the Colorbox event to 'See How It Works' link
                     $('[href="#link--how-it-works"]').colorbox({
-                        //inline: true,
-                        iframe: true,
+                        inline: true,
                         className: "video--colorbox", //We're adding a class to colorbox and the overlay to customize it
                         opacity: 0.63,
                         fixed: true,
