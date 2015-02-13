@@ -9,11 +9,12 @@ src:
 }
 
 @font-face{
-font-family: "Karbon";
+font-family: 'Karbon';
   src:
-      local("Karbon"),
-      local("Karbon"),
-      url("../../fonts/Karbon-Light.otf")  format("opentype");
+      local('Karbon'),
+      local('Karbon'),
+      url("../../fonts/Karbon-Light.otf");
+      ;
 }
 
 @font-face{
@@ -21,7 +22,7 @@ font-family: "Karbon";
   src:
       local("Proxima-Nova-Regular")
       local("Proxima-Nova-Regular")
-      url("../../fonts/Mark Simonson - Proxima Nova Regular.otf")
+      url("../../fonts/Mark Simonson - Proxima Nova Light.otf");
 
   ;
 
@@ -32,14 +33,37 @@ font-family: "Karbon";
   src:
       local("Proxima-Nova-Semibold")
       local("Proxima-Nova-Semibold")
-      url("../../fonts/Mark Simonson - Proxima Nova Semibold.otf")
+      url("../../fonts/Mark Simonson - Proxima Nova Alt Light.otf");
+;
+}
 
-  ;
-
+@font-face{
+	font-family: 'Proxima-Nova-Light';
+	src:
+	local('Proxima-Nova-Light'),
+	local('Proxima-Nova-Light'),
+	url('../../fonts/Mark Simonson - Proxima Nova Alt Light.otf');
+	;
 }
 
 
 
+#subhead{
+	font-family: 'Proxima-Nova-Light';
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 110px;
+	left: 950px;
+	transform: translate(-50%, -50%);
+	margin-top: 7px;
+}
+
+#logo-img{
+	margin-top: 45px;
+
+}
 
 body{
 	margin-left: 100px;
@@ -75,28 +99,6 @@ body{
 	background-color: #ffffff; 
 	display: block;
 	background-size: cover;
-}
-
-.title{
-	max-width: 435px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-
-}
-
- .title h1{
-	font-family: Proxima-Nova;
-	font-style: italic;
-	font-size: 32px;
-	color: white;
-}
-.title h2{
-	font-family: Proxima-Nova;
-	font-style: light;
-	font-size: 19px;
-	color: white;
 }
 
 .star{
@@ -140,37 +142,39 @@ body{
 }*/
 
 #prostatus{
-	font-family: 'Karbon-Semibold';
+	font-family: Karbon-Semibold;
 	font-size: 24px;
 	text-align: left;
 	color: #3c3c3c;
 	margin-top: 20px;
+	margin-bottom: 2px;
 }
 
 #substatus{
-	font-family: 'Karbon';
+	font-family: Karbon-Light;
 	font-size: 21px;
 	color: #5c5c5c;
+	margin-bottom: 20px;
 }
 
-#share{
-	font-family: 'Karbon';
+#insights{
+	font-family: Karbon-Light;
 	font-size: 21px;
 	color: #5c5c5c;
+	margin-bottom: 20px;
 }
 
 .mediaicons {
-    /*-webkit-transition: color #444172;
-    transition: color #444172;*/
     color: #444172;
+    text-indent: 1em;
+    position: absolute;
+    margin-left: -25px;
 
 }
 
 
 .mediaicons:hover{
-
 	color: #3c3d4d;
-
 }
 
 .blurb{
@@ -186,10 +190,10 @@ body{
 }
 
 .two{
-	font-family: 'Proxima-Nova';
+	font-family: 'Proxima-Nova-Regular';
 	font-size: 19px;
 	text-align: left;
-	margin-bottom: 45px;
+	margin-bottom: 40px;
 	color: #5c5c5c;
 }
 
@@ -227,11 +231,16 @@ body{
 	font-family: 'Proxima-Nova-Regular';
 	font-size: 16px;
 	text-align: left;
+	margin-bottom: -15px;
+}
+
+a:active{
+	color: #444172;
 }
 
 #griddvdr{
 
-    border-top: 1px solid #9f9f9f;
+    border-top: 0 solid #9f9f9f;
     max-width: 1000px;
     margin:0 auto;
 }
@@ -284,6 +293,7 @@ body{
     background-color: #eef1f3;
     max-width: 230px;
     */
+    margin-top: -40px;
 }
 
 /*Profile Layout*/
@@ -314,9 +324,9 @@ body{
 .biosubinfo{
    font-weight: lighter;
    font-family: "Proxima-Nova";
-   font-size: 14.9px;
-   margin-bottom: -12px;
-   margin-top: -9px;
+   font-size: 15px;
+   /*margin-bottom: -5px;*/
+   /*margin-top: -5px;*/
 }
 
 .viewbtn{
