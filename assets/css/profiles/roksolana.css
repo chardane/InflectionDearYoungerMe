@@ -50,7 +50,7 @@ font-family: 'Karbon';
 
 #subhead{
 	font-family: 'Proxima-Nova-Light';
-	font-size: 22px;
+	font-size: 19px;
 	text-align: center;
 	color: white;
 	vertical-align: middle;
@@ -122,54 +122,36 @@ body{
 	}
 }
 
-/*#status{
-	font-family: 'Karbon-semibold';
-	font-size: 21px;
-	margin-top: 35px;
-	margin-bottom: 35px;
-	/*margin-left: 100px;
-	text-align: left;
-}
-#status h1{
-	text-align: left;
-	font-family: 'Karbon-semibold';
-	
-}
-#status h2{
-	font-family: 'Karbon';
-	font-size: 21px;
-	text-align: left;
-	margin-right: 65px;
-}*/
-
 #prostatus{
 	font-family: Karbon-Semibold;
 	font-size: 24px;
 	text-align: left;
 	color: #3c3c3c;
 	margin-top: 20px;
-	margin-bottom: 2px;
+	margin-bottom: 9px;
 }
 
 #substatus{
 	font-family: Karbon-Light;
 	font-size: 21px;
 	color: #5c5c5c;
-	margin-bottom: 20px;
+	margin-bottom: 18px;
+	margin-top:-1px;
 }
 
 #insights{
 	font-family: Karbon-Light;
 	font-size: 21px;
 	color: #5c5c5c;
-	margin-bottom: 20px;
+	margin-bottom: -3px;
+	margin-top: 15px;
 }
 
 .mediaicons {
     color: #444172;
     text-indent: 1em;
     position: absolute;
-    margin-left: -25px;
+    margin-left: -28px;
 
 }
 
@@ -179,7 +161,7 @@ body{
 }
 
 .blurb{
-	margin-left: 5%;
+	margin-left: 3.9%;
 	max-width: 650px;
 }
 .one{
@@ -188,14 +170,24 @@ body{
 	text-align: left;
 	margin-bottom: 0px;	
 	color: #3c3c3c;
+	margin-top: -8px;
 }
 
 .two{
 	font-family: 'Proxima-Nova-Regular';
 	font-size: 19px;
 	text-align: left;
-	margin-bottom: 40px;
+	margin-bottom: 47px;
 	color: #5c5c5c;
+}
+
+.second{
+	margin-bottom: 55px;
+	font-family: 'Proxima-Nova-Regular';
+	font-size: 19px;
+	text-align: left;
+	color: #5c5c5c;
+}
 }
 
 .img-responsive{
@@ -216,12 +208,13 @@ body{
 	margin-bottom: 85px;
 }
 
-#say h4{
+.question{
 	font-family: 'Proxima-Nova-Semibold';
-	font-size: 24px
+	font-size: 24px;
+	margin-top: -12px;
 }
 
-#say h5{
+.answer{
 	font-family: 'Proxima-Nova';
 	font-style: Regular;
 	font-size: 19px;
@@ -232,7 +225,8 @@ body{
 	font-family: 'Proxima-Nova-Regular';
 	font-size: 16px;
 	text-align: left;
-	margin-bottom: -15px;
+	margin-bottom: -21px;
+	margin-top: -13px;
 }
 
 a:active{
