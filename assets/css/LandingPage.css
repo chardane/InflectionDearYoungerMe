@@ -127,7 +127,7 @@ font-family: 'Karbon-semibold';
 /*Banner*/
 .dymheader{
 
-    background-color: #f6f8fa;
+    /*background-color: #f6f8fa;*/
     padding:40px;
     font-weight: lighter;
 }
@@ -195,6 +195,7 @@ font-family: "Proxima-Nova";
 }
 
 .aboutDYM{
+
     font-weight: lighter;
     text-align: center;
     line-height: 2em;
@@ -260,23 +261,13 @@ font-family: "Proxima-Nova";
     
 }
 
-.videopic
-
-.playdym{
-
-  position: absolute;
-  margin: 220px;
-  margin-top: 150px;
-  cursor: pointer;
-
-
-}
 
 .playdym{
 
   position: absolute;
   margin: 200px;
   margin-top: 150px;
+  cursor: pointer;
 
 
 }
