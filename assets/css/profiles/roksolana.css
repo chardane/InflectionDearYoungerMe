@@ -22,7 +22,7 @@ font-family: 'Karbon';
   src:
       local("Proxima-Nova-Regular")
       local("Proxima-Nova-Regular")
-      url("../../fonts/Mark Simonson - Proxima Nova Light.otf");
+      url("../../fonts/Mark Simonson - Proxima Nova Regular.otf");
 
   ;
 
@@ -33,7 +33,7 @@ font-family: 'Karbon';
   src:
       local("Proxima-Nova-Semibold")
       local("Proxima-Nova-Semibold")
-      url("../../fonts/Mark Simonson - Proxima Nova Alt Light.otf");
+      url("../../fonts/Mark Simonson - Proxima Nova Regular.otf");
 ;
 }
 
@@ -42,10 +42,18 @@ font-family: 'Karbon';
 	src:
 	local('Proxima-Nova-Light'),
 	local('Proxima-Nova-Light'),
-	url('../../fonts/Mark Simonson - Proxima Nova Light.otf');
+	url("../../fonts/Mark Simonson - Proxima Nova Light.otf");
 	;
 }
 
+@font-face{
+	font-family: 'Proxima-Nova-Bold';
+	src:
+	local('Proxima-Nova-Bold'),
+	local('Proxima-Nova-Bold'),
+	url("../../fonts/Mark Simonson - Proxima Nova Bold.otf");
+	;
+}
 
 
 #subhead{
@@ -173,8 +181,8 @@ body{
 	font-size: 24px;
 	text-align: left;
 	margin-bottom: 0px;	
-	color: #3c3c3c;
 	margin-top: -8px;
+	color: #3c3c3c;
 }
 
 .two{
@@ -199,11 +207,12 @@ body{
 }
 
 #caption{
-	font-family: 'Proxima-Nova';
+	font-family: 'Proxima-Nova-Regular';
 	font-style: italic;
 	font-size: 16px;
 	text-align: left;
 	margin-bottom: 60px;
+	color: #7d7d86;
 }
 
 #say{
@@ -211,17 +220,17 @@ body{
 	margin-bottom: 85px;
 }
 
-.question{
-	font-family: 'Proxima-Nova-Semibold';
+/*.question{
+	font-family: '';
 	font-size: 24px;
 	margin-top: -12px;
-}
+}*/
 
 .answer{
-	font-family: 'Proxima-Nova';
-	font-style: Regular;
+	font-family: 'Proxima-Nova-Regular';
 	font-size: 19px;
-	margin: 1em 0;
+	margin: 6px 0;
+	color: #5c5c5c;
 }
 
 .interest{
@@ -232,7 +241,8 @@ body{
 	margin-top: -13px;
 }
 
-a:active{
+#career{
+	font-family: 'Proxima-Nova-Bold';
 	color: #444172;
 }
 
