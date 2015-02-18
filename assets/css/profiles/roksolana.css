@@ -42,7 +42,7 @@ font-family: 'Karbon';
 	src:
 	local('Proxima-Nova-Light'),
 	local('Proxima-Nova-Light'),
-	url('../../fonts/Mark Simonson - Proxima Nova Alt Light.otf');
+	url('../../fonts/Mark Simonson - Proxima Nova Light.otf');
 	;
 }
 
@@ -67,8 +67,6 @@ font-family: 'Karbon';
 }
 
 body{
-	margin-left: 100px;
-	margin-right: 100px;
 	background-color: #eaeaea;
 	text-align: center;
 	min-width: 320px;
@@ -113,7 +111,7 @@ body{
 .row-wrapper {
 	text-align: left;
 	max-width: 280px;
-	margin: 0px 0 0 25%;
+	margin: 0px 0 0 23%;
 }
 
 @media screen and (max-width: 768px) {
@@ -160,10 +158,16 @@ body{
 	color: #3c3d4d;
 }
 
-.blurb{
-	margin-left: 3.9%;
-	max-width: 650px;
+#infos{
+	width: 47%;
 }
+
+.blurb{
+	margin-left: 4.7%;
+	max-width: 660px;
+	margin-right: -151px;
+}
+
 .one{
 	font-family: 'Proxima-Nova-Semibold';
 	font-size: 24px;
@@ -187,7 +191,6 @@ body{
 	font-size: 19px;
 	text-align: left;
 	color: #5c5c5c;
-}
 }
 
 .img-responsive{
@@ -233,124 +236,3 @@ a:active{
 	color: #444172;
 }
 
-#griddvdr{
-
-    border-top: 0 solid #9f9f9f;
-    max-width: 1000px;
-    margin:0 auto;
-}
-
-#thegrid{
-
-  margin-top: 75px;
-
-}
-
-
-
-/*Header of Leaders At Inflection*/
-.leaderheader{
-  position: relative;
-}
-
-.lhtext{
-  position: absolute;
-  color:#3c3c3c;
-  left:100px;
-  bottom:-40px;
-  font-size: 38px;
-  font-family: "Karbon-semibold";
-}
-/*Container for Profiles*/
-
-
-#procontainer{
- padding:70px;
- padding-bottom: 0px;
-
-}
-
-#ghostcontainer{
-
-  padding:0px 70px 0px 70px;
- }
-
-.rok{
-	height: 330px;
-	width: 230px;
-	background-color: #eef1f3;
-	position: relative;
-} 
-
-#profilebox{
-    /*position: relative;
-    height: 325px;
-    background-color: #eef1f3;
-    max-width: 230px;
-    */
-    margin-top: -40px;
-}
-
-/*Profile Layout*/
-
-.profilepic{
-    max-height: 230px;
-    width: auto;
-    position: relative;
-}
-
-.profiletext{
-  /*padding: 20px;*/
-  text-align: left;
-}  
-
-
-.bioinfo {
-   color: #444172;
-  font-family: "Proxima-Nova-Semibold";
-  font-size: 19px;
-  margin-right: 10px;
-}
-
-.bioinfo:hover{
-  color: #3c3d4d;
-}
-
-.biosubinfo{
-   font-weight: lighter;
-   font-family: "Proxima-Nova";
-   font-size: 15px;
-   /*margin-bottom: -5px;*/
-   /*margin-top: -5px;*/
-}
-
-.viewbtn{
-
-  
-  padding-top: 26px;
-  padding-bottom: 20px;
-
-}
-
-.btn-default {
-  color: #fff;
-  background-color: #3b3b4c;
-  border-color: #ccc;
-  width: 130px;
-  height: 34px;
-  border-radius: 5px;
-  font-family: "Proxima-Nova-Semibold";
-  font-size:13.84px;
-}
-
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default.focus,
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-  color: #fff;
-  background-color: #24242e;
-  border-color: #3b3b4c;
-}
