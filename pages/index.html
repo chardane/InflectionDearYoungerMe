@@ -25,7 +25,6 @@
             <!-- jQuery -->
             <script src="../assets/js/jquery-1.11.2.min.js"></script>
             <script src="../assets/js/jquery.colorbox.js"></script>
-            <script type="text/javascript" src="../assets/js/jquery.paulund_modal_box.js"></script>
 
            <!-- Bootstrap -->
             <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
@@ -36,11 +35,71 @@
                 <link rel="stylesheet" href="../assets/css/colorbox.css" />
                 <script src="../assets/js/jquery.colorbox-min.js"></script>
                 <script src="../assets/js/jquery.colorbox.js"></script>
+
+                <script type="text/javascript">
+
+                // $(document).ready(function(){
+                //         //Examples of how to assign the Colorbox event to elements
+                    
+                //         $(".youtube").colorbox({inline: true,
+                //     //     className: "video--colorbox", //We're adding a class to colorbox and the overlay to customize it
+                //             opacity: 0.63,
+                //             fixed: true,
+                //             height: 450,
+                //             maxWidth: 800,
+                //             width: "95%",
+                //             href: ".youtube"});
+                //         $(".callbacks").colorbox({
+                //             onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+                //             onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+                //             onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+                //             onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+                //             onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+                //         });
+
+                //         $('.non-retina').colorbox({rel:'group5', transition:'none'})
+                //         $('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+                        
+                //         //Example of preserving a JavaScript event for inline calls.
+                //         $("#click").click(function(){ 
+                //             $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+                //             return false;
+                //         });
+                //     });
+
+                // </script>
+
+                <script>
+                $(document).ready(function(){
+                    // Assigning the Colorbox event to 'See How It Works' link
+                    $('[href="#link--how-it-works"]').colorbox({
+                        inline: true,
+                        className: "video--colorbox", //We're adding a class to colorbox and the overlay to customize it
+                        opacity: 0.63,
+                        fixed: true,
+                        // height: 450,
+                        // maxWidth: 800,
+                        // width: "95%",
+                        href: "#lightbox--how-it-works"
+                    });
+
+                });
+
+            </script>
+
+
+            <style type="text/css">
+
+
+
+
+
+            </style>
             
         
         </head>
 
-        <body>
+        <body class="backgroundC">
             <div class="container-fluid">
             
             <div id="dym aboutDYM">
@@ -71,14 +130,14 @@
         <div class="about-content">
 
             
-             <div id="dym-description" class="col-lg-6">
+             <div id="dym-description" class="col-lg-6 col-xs-12 col-sm-12">
                     <h1 class="dym-des-hdr">About Dear Younger Me</h1>
                     <p class="dym-des-txt">The idea of reflecting on our professional journeys and sharing encouragement with our “younger selves” came from discussions amongst several of the women leaders at Inflection. We wanted to share what we’ve learned and the amazing experiences we’ve created for ourselves in the technology industry. We want every “younger me” to feel empowered to join and innovate this space.</p>
                 <div class="DYMsocial"><p class="socialtxt">Check our Dear Younger Me on social media:</p>
                     <div class="logoicons">
-                        <a href="http://www.facebook.com/DearYoungerMe" target='_blank'><i class="fa fa-facebook-square fa-2x"></i></a>
-                        <a href="http://www.linkedin.com/DearYoungerMe" target="_blank"> <i class="fa fa-linkedin-square fa-2x"> </i> </a>
-                        <a href="http://twitter.com/dearyoungerme" target="_blank"> <i class="fa fa-twitter-square fa-2x"></i></a>
+                        <a href="http://www.facebook.com/DearYoungerMe" target='_blank'><i class="fa fa-facebook-square fa-3x"></i></a>
+                        <a href="http://www.linkedin.com/DearYoungerMe" target="_blank"> <i class="fa fa-linkedin-square fa-3x"> </i> </a>
+                        <a href="http://twitter.com/dearyoungerme" target="_blank"> <i class="fa fa-twitter-square fa-3x"></i></a>
                     </div>
                 </div>
 
@@ -88,17 +147,22 @@
 
              
 
-                    <div id="dymvideo" class="col-lg-6">
+                    <div id="dymvideo" class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 
     <!-- Link, which opens lightbox -->
-                        <a href="#link--how-it-works"> <img class="playdym" src="../assets/imgs/landing/button.png"> </a>
+
+
+
+                        <a href='#link--how-it-works'><img class="playdym" src="../assets/imgs/landing/button.png"></a>
                         <img class="videopic" src="../assets/imgs/landing/Videoheader.png">
-                        <div id="videotxt" class="col-lg-9">Women at Inflection Talk about Dear Younger Me</div>
+                        <div id="videotxt" class="col-xs-12 col-sm-12 col-md-12 col-lg-11">Women at Inflection Talk about Dear Younger Me</div>
                         
+
                         <!-- Video Lightbox -->
                             <div style="display: none">
                                 <div id="lightbox--how-it-works">
-                                        <iframe src="../assets/vids/DearYoungerMe.m4" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="true" mozallowfullscreen="ture" webkitallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" width="800" height="450">&#160;</iframe>
+                                        <!-- <iframe src="../assets/vids/DearYoungerMe.m4" allowtransparency="true" frameborder="0" scrolling="no"  name="wistia_embed" allowfullscreen="true" mozallowfullscreen="ture" webkitallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" width="800" height="450">&#160;</iframe> -->
+                                        <video src="../assets/vids/DearYoungerMe.m4v" controls width="800" height="450" ></video>
                                         
                                         
                                 </div>
@@ -118,8 +182,8 @@
         <div class="gridcontents">
             <div class="leaderheader">
 
-                <div class="lhtext">
-                    <h2>Women Leaders at Inflection</h2>
+                <div>
+                    <h2 class="lhtext">Women Leaders at Inflection</h2>
                 </div>
 
             </div>
@@ -128,7 +192,7 @@
         <div id="procontainer">
             <div class="first4">
             <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3">
                         <div class="rok">
                             <div id="profilebox">
 
@@ -147,7 +211,7 @@
                     </div>
 
 
-                    <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3">
                         <div class="rok">
                             <div id="profilebox">
 
@@ -164,7 +228,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3">
                         <div class="rok">
                             <div id="profilebox">
 
@@ -180,7 +244,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3">
                         <div class="rok">
                             <div id="profilebox">
 
@@ -399,26 +463,7 @@
         <!-- End of Contanier -->
         </div>
 
-            <script>
-                $(document).ready(function(){
-                    //Assigning the Colorbox event to 'See How It Works' link
-                    $('[href="#link--how-it-works"]').colorbox({
-                        inline: true,
-                        className: "video--colorbox", //We're adding a class to colorbox and the overlay to customize it
-                        opacity: 0.63,
-                        fixed: true,
-                        height: 450,
-                        maxWidth: 800,
-                        width: "95%",
-                        href: "#lightbox--how-it-works"
-                    });
-
-                    var video = $('.wistia_embed');
-                    video.autoplay = false;
-
-                });
-
-            </script>
+            
 
 
     <script type="text/javascript" src="../assets/js/photo_gallery.js"></script>
