@@ -153,7 +153,8 @@ body{
 @media screen and (min-width: 320px) and (max-width: 720px){
 	#prostatus{
 		font-size: 25px;
-		margin-bottom: 13px;
+		margin-top: 21px;
+		margin-bottom: 5px;
 	}
 }
 
@@ -167,7 +168,7 @@ body{
 @media screen and (min-width: 320px) and (max-width: 720px){
 	#substatus{
 		font-size: 15px;
-		margin-bottom: 25px;
+		margin-bottom: 17px;
 	}
 }
 
@@ -181,6 +182,7 @@ body{
 @media screen and (min-width: 320px) and (max-width: 720px){
 	#insights{
 		font-size: 15px;
+		margin-bottom: 4px;
 	}
 }
 
@@ -197,6 +199,10 @@ body{
 	color: #3c3d4d;
 }
 
+#bio{
+	margin-bottom: 84px;
+}
+
 #infos{
 	width: 47%;
 }
@@ -211,6 +217,11 @@ body{
 	max-width: 660px;
 	margin-right: -151px;
 }
+@media screen and (min-width: 320px) and (max-width: 720px){
+	.blurb{
+		margin-left: 2%;
+	}
+}
 
 .one{
 	font-family: 'Proxima-Nova-Semibold';
@@ -223,6 +234,7 @@ body{
 @media screen and (min-width: 320px) and (max-width: 720px){
 	.one{
 		font-size: 20px;
+		margin-bottom: 11px;
 	}
 }
 
@@ -236,6 +248,7 @@ body{
 @media screen and (min-width: 320px) and (max-width: 720px){
 	.two{
 		font-size: 15px;
+		margin-bottom: 51px;
 	}
 }
 
@@ -249,7 +262,7 @@ body{
 @media screen and (min-width: 320px) and (max-width: 720px){
 	.second{
 		font-size: 15px;
-		margin-bottom: 50px;
+		margin-bottom: 44px;
 	}
 }
 
@@ -269,13 +282,19 @@ body{
 @media screen and (min-width: 320px) and (max-width: 720px){
 	#caption{
 		font-size: 15px;
-		margin-bottom: 50px;
+		margin-top: 17px;
+		margin-bottom: 49px;
 	}
 }
 
 #say{
 	text-align: left;
 	margin-bottom: 85px;
+}
+@media screen and (min-width: 320px) and (max-width: 720px){
+	#say{
+		margin-bottom: 49px;
+	}
 }
 
 /*.question{
@@ -293,7 +312,7 @@ body{
 @media screen and (min-width: 320px) and (max-width: 720px){
 	.answer{
 		font-size: 15px;
-		margin-bottom: 50px;
+		margin-bottom: 56px;
 	}
 }
 
@@ -308,7 +327,7 @@ body{
 @media screen and (min-width: 320px) and (max-width: 720px){
 	.interest{
 		font-size: 15px;
-		margin-bottom: 65px;
+		margin-bottom: -25px;
 	}
 }
 
