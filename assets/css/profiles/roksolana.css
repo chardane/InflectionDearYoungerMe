@@ -25,7 +25,6 @@ font-family: 'Karbon';
       url("../../fonts/Mark Simonson - Proxima Nova Regular.otf");
 
   ;
-
 }
 
 @font-face{
@@ -34,7 +33,7 @@ font-family: 'Karbon';
       local("Proxima-Nova-Semibold")
       local("Proxima-Nova-Semibold")
       url("../../fonts/Mark Simonson - Proxima Nova Regular.otf");
-;
+	;
 }
 
 @font-face{
@@ -68,6 +67,11 @@ font-family: 'Karbon';
 	left: 950px;
 	margin-top: 10px;
 }
+@media screen and (min-width: 320px) and (max-width: 720px){
+	#subhead{
+		font-size: 15px;
+	}
+}
 
 #logo-img{
 	margin-top: 45px;
@@ -78,6 +82,11 @@ body{
 	background-color: #eaeaea;
 	text-align: center;
 	min-width: 320px;
+}
+@media screen and (min-width: 320px) and (max-width: 720px){
+	body{
+		padding: 20px;
+	}
 }
 
 #wrapper{
@@ -106,6 +115,11 @@ body{
 	background-color: #ffffff; 
 	display: block;
 	background-size: cover;
+}
+@media screen and (min-width: 320px) and (max-width: 720px){
+	.header{
+		height: 205px;
+	}
 }
 
 .star{
@@ -136,6 +150,12 @@ body{
 	margin-top: 20px;
 	margin-bottom: 9px;
 }
+@media screen and (min-width: 320px) and (max-width: 720px){
+	#prostatus{
+		font-size: 25px;
+		margin-bottom: 13px;
+	}
+}
 
 #substatus{
 	font-family: Karbon-Light;
@@ -144,6 +164,12 @@ body{
 	margin-bottom: 18px;
 	margin-top:-1px;
 }
+@media screen and (min-width: 320px) and (max-width: 720px){
+	#substatus{
+		font-size: 15px;
+		margin-bottom: 25px;
+	}
+}
 
 #insights{
 	font-family: Karbon-Light;
@@ -151,6 +177,11 @@ body{
 	color: #5c5c5c;
 	margin-bottom: -3px;
 	margin-top: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 720px){
+	#insights{
+		font-size: 15px;
+	}
 }
 
 .mediaicons {
@@ -169,6 +200,11 @@ body{
 #infos{
 	width: 47%;
 }
+@media screen and (min-width: 320px) and (max-width: 720px){
+	#infos{
+		width: 100%;
+	}
+}
 
 .blurb{
 	margin-left: 4.7%;
@@ -184,6 +220,11 @@ body{
 	margin-top: -8px;
 	color: #3c3c3c;
 }
+@media screen and (min-width: 320px) and (max-width: 720px){
+	.one{
+		font-size: 20px;
+	}
+}
 
 .two{
 	font-family: 'Proxima-Nova-Regular';
@@ -192,6 +233,11 @@ body{
 	margin-bottom: 47px;
 	color: #5c5c5c;
 }
+@media screen and (min-width: 320px) and (max-width: 720px){
+	.two{
+		font-size: 15px;
+	}
+}
 
 .second{
 	margin-bottom: 55px;
@@ -199,6 +245,12 @@ body{
 	font-size: 19px;
 	text-align: left;
 	color: #5c5c5c;
+}
+@media screen and (min-width: 320px) and (max-width: 720px){
+	.second{
+		font-size: 15px;
+		margin-bottom: 50px;
+	}
 }
 
 .img-responsive{
@@ -213,6 +265,12 @@ body{
 	text-align: left;
 	margin-bottom: 60px;
 	color: #7d7d86;
+}
+@media screen and (min-width: 320px) and (max-width: 720px){
+	#caption{
+		font-size: 15px;
+		margin-bottom: 50px;
+	}
 }
 
 #say{
@@ -232,6 +290,12 @@ body{
 	margin: 6px 0;
 	color: #5c5c5c;
 }
+@media screen and (min-width: 320px) and (max-width: 720px){
+	.answer{
+		font-size: 15px;
+		margin-bottom: 50px;
+	}
+}
 
 .interest{
 	font-family: 'Proxima-Nova-Regular';
@@ -240,9 +304,22 @@ body{
 	margin-bottom: -21px;
 	margin-top: -13px;
 }
+@media screen and (min-width: 320px) and (max-width: 720px){
+	.interest{
+		font-size: 15px;
+		margin-bottom: 65px;
+	}
+}
 
 #career{
 	font-family: 'Proxima-Nova-Bold';
 	color: #444172;
 }
 
+/*@media (min-width: @screen-sm-min) { ... }
+
+Medium devices (desktops, 992px and up) 
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) 
+@media (min-width: @screen-lg-min) { ... }*/
