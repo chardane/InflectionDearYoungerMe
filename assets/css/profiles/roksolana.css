@@ -149,7 +149,7 @@ body{
 	font-family: Karbon-Light;
 	font-size: 21px;
 	color: #5c5c5c;
-	margin-bottom: -3px;
+	margin-bottom: 1px;
 	margin-top: 15px;
 }
 
@@ -239,6 +239,7 @@ body{
 	text-align: left;
 	margin-bottom: -21px;
 	margin-top: -13px;
+	color: #7d7d86;
 }
 
 #career{
