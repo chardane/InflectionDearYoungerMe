@@ -67,9 +67,10 @@ font-family: 'Karbon';
 	left: 950px;
 	margin-top: 10px;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	#subhead{
 		font-size: 15px;
+		width: 47%;
 	}
 }
 
@@ -82,11 +83,6 @@ body{
 	background-color: #eaeaea;
 	text-align: center;
 	min-width: 320px;
-}
-@media screen and (min-width: 320px) and (max-width: 720px){
-	body{
-		padding: 20px;
-	}
 }
 
 #wrapper{
@@ -116,14 +112,12 @@ body{
 	display: block;
 	background-size: cover;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	.header{
+		background-image: url("../../imgs/profiles/mobile-header.png");
 		height: 205px;
+		background-size: cover;
 	}
-}
-
-.star{
-	/*margin-left: 100px;*/
 }
 
 .row{
@@ -136,9 +130,9 @@ body{
 	margin: 0px 0 0 23%;
 }
 
-@media screen and (max-width: 768px) {
-	.row-wrapper {
-		margin: 0 auto;
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.row-wrapper{
+		margin: 0 0 0 0;
 	}
 }
 
@@ -150,7 +144,7 @@ body{
 	margin-top: 20px;
 	margin-bottom: 9px;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	#prostatus{
 		font-size: 25px;
 		margin-top: 21px;
@@ -165,10 +159,11 @@ body{
 	margin-bottom: 18px;
 	margin-top:-1px;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	#substatus{
 		font-size: 15px;
 		margin-bottom: 17px;
+		width: 65%;
 	}
 }
 
@@ -179,7 +174,7 @@ body{
 	margin-bottom: 1px;
 	margin-top: 15px;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	#insights{
 		font-size: 15px;
 		margin-bottom: 4px;
@@ -193,6 +188,12 @@ body{
     margin-left: -28px;
 
 }
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.mediaicons{
+		text-indent: 7px;
+		margin-left: -17px;
+	}
+}
 
 
 .mediaicons:hover{
@@ -200,16 +201,17 @@ body{
 }
 
 #bio{
-	margin-bottom: 84px;
+	margin-bottom: 34px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+	#bio{
+		margin-top: -65px;
+		padding: 20px;
+	}
 }
 
 #infos{
 	width: 47%;
-}
-@media screen and (min-width: 320px) and (max-width: 720px){
-	#infos{
-		width: 100%;
-	}
 }
 
 .blurb{
@@ -217,7 +219,7 @@ body{
 	max-width: 660px;
 	margin-right: -151px;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	.blurb{
 		margin-left: 2%;
 	}
@@ -231,7 +233,7 @@ body{
 	margin-top: -8px;
 	color: #3c3c3c;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	.one{
 		font-size: 20px;
 		margin-bottom: 11px;
@@ -245,7 +247,7 @@ body{
 	margin-bottom: 47px;
 	color: #5c5c5c;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	.two{
 		font-size: 15px;
 		margin-bottom: 51px;
@@ -259,7 +261,7 @@ body{
 	text-align: left;
 	color: #5c5c5c;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	.second{
 		font-size: 15px;
 		margin-bottom: 44px;
@@ -279,7 +281,7 @@ body{
 	margin-bottom: 60px;
 	color: #7d7d86;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	#caption{
 		font-size: 15px;
 		margin-top: 17px;
@@ -291,7 +293,7 @@ body{
 	text-align: left;
 	margin-bottom: 85px;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	#say{
 		margin-bottom: 49px;
 	}
@@ -309,7 +311,7 @@ body{
 	margin: 6px 0;
 	color: #5c5c5c;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	.answer{
 		font-size: 15px;
 		margin-bottom: 56px;
@@ -324,7 +326,7 @@ body{
 	margin-top: -13px;
 	color: #7d7d86;
 }
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 	.interest{
 		font-size: 15px;
 		margin-bottom: -25px;
