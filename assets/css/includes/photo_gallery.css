@@ -7,6 +7,17 @@
 
 
 }
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+
+  #griddvdr{
+
+      border-top: 0px;
+  }
+
+
+
+}
 /*Container for the Grid*/
 
 #thegrid{
@@ -31,6 +42,16 @@
   font-size: 38px;
   font-family: "Karbon-semibold";
 }
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+
+  .lhtext{
+      font-size: 25px;
+      position:inherit;
+}
+
+}
+
 /*Container for Profiles*/
 
 #procontainer{

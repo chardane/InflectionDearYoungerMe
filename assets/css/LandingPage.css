@@ -129,10 +129,10 @@ font-family: 'Karbon-semibold';
 
 @media screen and (min-width: 320px) and (max-width: 720px){
 
-.img-center {
+  .img-center {
 
-width: 88px;
-}
+    width: 88px;
+  }
 
 }
 
@@ -156,10 +156,10 @@ width: 88px;
 
 @media screen and (min-width: 320px) and (max-width: 720px){
 
-.landingbtn {
+  .landingbtn {
 
-width: 42px;
-}
+    width: 42px;
+  }
 
 }
 
@@ -190,15 +190,15 @@ width: 42px;
 
 @media screen and (min-width: 320px) and (max-width: 720px){
 
-.tagline{
+  .tagline{
 
-font-size: 14px;
-margin-top: 0px;
-font-family: "Proxima-Nova-light";
-line-height:1.5em;
-letter-spacing: 0px;
-text-align: center;
-}
+    font-size: 14px;
+    margin-top: 0px;
+    font-family: "Proxima-Nova-light";
+    line-height:1.5em;
+    letter-spacing: 0px;
+    text-align: center;
+  }
 
 }
 
@@ -238,7 +238,6 @@ font-family: "Proxima-Nova";
     text-align: center;
     line-height: 2em;
     max-width: 1215px;
-    max-height: 2380px;
     background-color: #fff;
     margin: 0 auto;
 
@@ -252,10 +251,27 @@ font-family: "Proxima-Nova";
 
 }
 
+
 #dym-description{
   position:relative;
   text-align: left;
   right: 41px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+
+
+  .about-content{
+
+    padding:0px 5px; 
+
+  }
+
+  #dym-description{
+    right: 0px;
+    padding: 0px;
+  }
+
 }
 
 
@@ -268,10 +284,21 @@ font-family: "Proxima-Nova";
 
 @media screen and (min-width: 320px) and (max-width: 720px){
 
-.dym-des-hdr{
-  font-size: 25px;
-  color:#3c3c3c;
-  white-space: nowrap;
+  .dym-des-hdr{
+    font-size: 25px;
+    color:#3c3c3c;
+    white-space: nowrap;
+  }
+
+  .dym-des-txt{
+
+  font-family: "Proxima-Nova";
+  font-size: 19px;
+  text-align: left;
+  line-height: 24pt;
+  word-spacing: -2px;
+  color: #5c5c5c;
+}
 
 }
 
@@ -284,6 +311,8 @@ font-family: "Proxima-Nova";
   word-spacing: -2px;
   color: #5c5c5c;
 }
+
+
 
 #videotxt{
   padding-top: 7px;
@@ -309,14 +338,58 @@ font-family: "Proxima-Nova";
     
 }
 
+@media screen and (min-width: 320px) and (max-width: 720px){
+
+  .dym-des-hdr{
+    font-size: 25px;
+    color:#3c3c3c;
+    white-space: nowrap;
+  }
+
+  .dym-des-txt{
+  font-size: 15px;
+  margin-bottom:50px;
+  }
+
+  .socialtxt{
+  font-size: 15px;
+  }
+
+  #videotxt{
+  padding-top: 12px;
+  padding-bottom: 88px;
+  right: 0px;
+  
+  font-size: 15px;
+  }
+
+  #dymvideo{
+    margin-top: 50px;
+  }
+
+}
+
 
 .playdym{
 
   position: absolute;
-  margin: 200px;
-  margin-top: 150px;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   cursor: pointer;
 
+
+}
+
+.videowrapper{
+
+  position: relative;
+
+}
+
+.videowrapper img{
+
+  max-width: 100%;
 
 }
 
@@ -371,7 +444,6 @@ font-family: "Proxima-Nova";
 }
 
 .logoicons{
-    padding-bottom: 74px;
     max-width: 100px;
     margin-right: 301px;
     display: inline-flex;
