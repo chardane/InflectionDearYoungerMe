@@ -38,38 +38,7 @@
 
                 <script type="text/javascript">
 
-                // $(document).ready(function(){
-                //         //Examples of how to assign the Colorbox event to elements
-                    
-                //         $(".youtube").colorbox({inline: true,
-                //     //     className: "video--colorbox", //We're adding a class to colorbox and the overlay to customize it
-                //             opacity: 0.63,
-                //             fixed: true,
-                //             height: 450,
-                //             maxWidth: 800,
-                //             width: "95%",
-                //             href: ".youtube"});
-                //         $(".callbacks").colorbox({
-                //             onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-                //             onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-                //             onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-                //             onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-                //             onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
-                //         });
 
-                //         $('.non-retina').colorbox({rel:'group5', transition:'none'})
-                //         $('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
-                        
-                //         //Example of preserving a JavaScript event for inline calls.
-                //         $("#click").click(function(){ 
-                //             $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-                //             return false;
-                //         });
-                //     });
-
-                // </script>
-
-                <script>
                 $(document).ready(function(){
                     // Assigning the Colorbox event to 'See How It Works' link
                     $('[href="#link--how-it-works"]').colorbox({
@@ -77,6 +46,7 @@
                         className: "video--colorbox", //We're adding a class to colorbox and the overlay to customize it
                         opacity: 0.63,
                         fixed: true,
+                        // iframe: true,
                         // height: 450,
                         // maxWidth: 800,
                         // width: "95%",
@@ -152,9 +122,10 @@
     <!-- Link, which opens lightbox -->
 
 
-
+                    <div class="videowrapper">
                         <a href='#link--how-it-works'><img class="playdym" src="../assets/imgs/landing/button.png"></a>
                         <img class="videopic" src="../assets/imgs/landing/Videoheader.png">
+                    </div>
                         <div id="videotxt" class="col-xs-12 col-sm-12 col-md-12 col-lg-11">Women at Inflection Talk about Dear Younger Me</div>
                         
 
@@ -162,7 +133,7 @@
                             <div style="display: none">
                                 <div id="lightbox--how-it-works">
                                         <!-- <iframe src="../assets/vids/DearYoungerMe.m4" allowtransparency="true" frameborder="0" scrolling="no"  name="wistia_embed" allowfullscreen="true" mozallowfullscreen="ture" webkitallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" width="800" height="450">&#160;</iframe> -->
-                                        <video src="../assets/vids/DearYoungerMe.m4v" controls width="800" height="450" ></video>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oOsS1WVk5Oc" frameborder="0" allowfullscreen></iframe>
                                         
                                         
                                 </div>
