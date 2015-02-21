@@ -127,7 +127,7 @@ font-family: 'Karbon-semibold';
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (max-width: 768px){
 
   .img-center {
 
@@ -154,7 +154,7 @@ font-family: 'Karbon-semibold';
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (max-width: 768px){
 
   .landingbtn {
 
@@ -186,9 +186,13 @@ font-family: 'Karbon-semibold';
 .tagline{
 
   margin-top: 24px;
+  max-width: 660px;
+  display: block;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 320px) and (max-width: 720px){
+
+@media screen and (max-width: 768px){
 
   .tagline{
 
@@ -198,6 +202,8 @@ font-family: 'Karbon-semibold';
     line-height:1.5em;
     letter-spacing: 0px;
     text-align: center;
+    margin-bottom: 100px;
+  
   }
 
 }
@@ -258,7 +264,7 @@ font-family: "Proxima-Nova";
   right: 41px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (max-width: 768px){
 
 
   .about-content{
@@ -282,7 +288,7 @@ font-family: "Proxima-Nova";
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (max-width: 768px){
 
   .dym-des-hdr{
     font-size: 25px;
@@ -338,12 +344,13 @@ font-family: "Proxima-Nova";
     
 }
 
-@media screen and (min-width: 320px) and (max-width: 720px){
+@media screen and (max-width: 768px){
 
   .dym-des-hdr{
     font-size: 25px;
     color:#3c3c3c;
     white-space: nowrap;
+    margin-top: 50px;
   }
 
   .dym-des-txt{
@@ -357,14 +364,16 @@ font-family: "Proxima-Nova";
 
   #videotxt{
   padding-top: 12px;
-  padding-bottom: 88px;
-  right: 0px;
+  padding-bottom: 39px;
+  right: 15px;
   
   font-size: 15px;
   }
 
   #dymvideo{
-    margin-top: 50px;
+    margin-top: 45px;
+    padding: 0px 5px;
+    text-align: left;
   }
 
 }
@@ -550,6 +559,7 @@ video {
   display: none;
 }
 
-/*Ryu*/
-
+#aboutDYM{
+  overflow-x:hidden;
+}
   

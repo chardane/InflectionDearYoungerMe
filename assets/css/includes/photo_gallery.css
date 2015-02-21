@@ -7,26 +7,40 @@
 
 
 }
-
-@media screen and (min-width: 320px) and (max-width: 720px){
-
-  #griddvdr{
-
-      border-top: 0px;
-  }
-
-
-
-}
-/*Container for the Grid*/
+r for the Grid*/
 
 #thegrid{
   margin-top: 60px;
 }
 
+  .gridcontents{
+
+    padding-top: 0px;
+
+  }
+
+
 /*Grid Contents*/
 .gridcontents{
     padding-top:40px;
+}
+
+
+@media screen and (max-width: 720px){
+
+  #griddvdr{
+
+  border-top: 0px;
+  }
+
+  #thegrid{
+  margin-top: 0px;
+}
+
+.gridcontents{
+    padding-top:0px;
+}
+
 }
 
 /*Header of Leaders At Inflection*/
@@ -38,30 +52,24 @@
   position: absolute;
   color:#3c3c3c;
   left:104px;
-  bottom:-40px;
   font-size: 38px;
   font-family: "Karbon-semibold";
 }
 
-@media screen and (min-width: 320px) and (max-width: 720px){
 
-  .lhtext{
-      font-size: 25px;
-      position:inherit;
-}
-
-}
 
 /*Container for Profiles*/
 
 #procontainer{
   padding:70px;
-  padding-bottom: 0px;
 }
+
+
 
 #ghostcontainer{
   padding:0px 70px 0px 70px;
 }
+
 
 #profilebox{
     position: relative;
@@ -73,13 +81,43 @@
 }
 
 
+@media screen and (max-width: 720px){
+
+  .lhtext{
+      font-size: 25px;
+      position:inherit;
+      }
+
+  #procontainer{
+    padding:0px;
+        }
+
+
+  #ghostcontainer{
+    padding:0px;
+  }
+
+  #profilebox{
+    margin-top: 0px;
+    margin: 10px auto;
+    }
+
+    .group2{
+      display:none;
+
+    }
+
+}
+
 /*Profile Layout*/
 
-.first4{
+.group1{
 
   margin-bottom: -4px;
 
 }
+
+
 
 .profilepic{
 
@@ -130,4 +168,8 @@
    font-size: 14.9px;
    margin-right: 10px;
 
+}
+
+.hidden{
+  display: none;
 }
