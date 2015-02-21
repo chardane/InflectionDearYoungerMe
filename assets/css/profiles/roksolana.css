@@ -150,9 +150,11 @@ body{
 	margin: 0px 0 0 23%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 991px){
 	.row-wrapper{
-		margin: 0 0 0 0;
+		margin: 0 auto;
+		display: block;
+		width: 280px;
 	}
 }
 
@@ -229,13 +231,13 @@ body{
 	}
 }
 #blurb{
-	margin-left: 4.7%;
-	max-width: 660px;
+	padding-left: 4.7%;
+	max-width: 89%;
 	margin-right: -151px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 991px){
 	#blurb{
-		margin-left: 0;
+		padding-left: 0;
 		max-width: 100%;
 		margin-right: 0;
 	}
