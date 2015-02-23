@@ -80,8 +80,9 @@ font-family: 'Karbon';
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
 	#logo-img{
-		height: 35px;
+		height: 30px;
 		width: auto;
+		margin-top: 65px;
 	}
 }
 
@@ -125,7 +126,7 @@ body{
 @media screen and (min-width: 320px) and (max-width: 768px){
 	.header{
 		background-image: url("../../imgs/profiles/mobile-header.png");
-		height: 205px;
+		height: 208px;
 		background-size: cover;
 	}
 }
@@ -317,12 +318,6 @@ body{
 	}
 }
 
-/*.question{
-	font-family: '';
-	font-size: 24px;
-	margin-top: -12px;
-}*/
-
 .answer{
 	font-family: 'Proxima-Nova-Regular';
 	font-size: 19px;
@@ -347,7 +342,7 @@ body{
 @media screen and (min-width: 320px) and (max-width: 768px){
 	.interest{
 		font-size: 15px;
-		margin-bottom: -25px;
+		margin-bottom: -35px;
 	}
 }
 
@@ -368,11 +363,3 @@ body{
 		border-top: 1px solid white;
 	}
 }
-
-/*@media (min-width: @screen-sm-min) { ... }
-
-Medium devices (desktops, 992px and up) 
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) 
-@media (min-width: @screen-lg-min) { ... }*/
