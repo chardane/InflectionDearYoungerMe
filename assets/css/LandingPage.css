@@ -257,11 +257,17 @@ font-family: "Proxima-Nova";
 
 }
 
-
 #dym-description{
-  position:relative;
-  text-align: left;
-  right: 41px;
+        position:relative;
+        text-align: left;
+        right: 41px;
+      }
+
+@media screen and (max-width: 1000px){
+
+      #dym-description{
+        right: 0px;
+      }
 }
 
 @media screen and (max-width: 768px){
@@ -329,6 +335,9 @@ font-family: "Proxima-Nova";
 
 }
 
+
+
+
 #overlayvid{
 
   background-color: black;
@@ -343,6 +352,8 @@ font-family: "Proxima-Nova";
    margin-top: 24px;
     
 }
+
+
 
 @media screen and (max-width: 768px){
 
@@ -399,6 +410,46 @@ font-family: "Proxima-Nova";
 .videowrapper img{
 
   max-width: 100%;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    #videotxt{
+   top:50%;
+   left:50%;
+    }
+
+    .videowrapper{
+       top:50%;
+      left:50%;
+    }
+}
+
+  @media screen and (max-width: 768px) {
+
+  #videotxt{
+ top:0%;
+ left:0%;
+  }
+
+  .videowrapper{
+     top:0%;
+    left:0%;
+  }
+      
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #videotxt{
+   top:25%;
+   left:25%;
+    }
+
+  .videowrapper{
+       top:25%;
+      left:25%;
+    }
 
 }
 
