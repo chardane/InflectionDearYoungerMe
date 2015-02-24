@@ -75,7 +75,7 @@ r for the Grid*/
     position: relative;
     height: 322px;
     background-color: #eef1f3;
-    width: 230px;
+    max-width: 230px;
     color: #3c3d4d;
     margin-top: 27px;
 }
@@ -100,13 +100,20 @@ r for the Grid*/
   #profilebox{
     margin-top: 0px;
     margin: 10px auto;
-    }
+  
+  }
 
     .group2{
       display:none;
 
     }
 
+}
+
+@media screen and (max-width: 321px) {
+  #profilebox {
+    max-width:100%;
+  }
 }
 
 /*Profile Layout*/
@@ -141,6 +148,7 @@ r for the Grid*/
   font-family: "Proxima-Nova-Semibold";
   font-size: 19px;
   margin-right: 10px;
+
 }
 
 .bioinfo:hover{
@@ -157,6 +165,8 @@ r for the Grid*/
    font-size: 14.9px;
    margin-bottom: -12px;
    margin-top: -9px;
+   line-height: 15px;
+  margin-top:0;
 
 }
 

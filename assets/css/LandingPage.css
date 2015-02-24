@@ -357,6 +357,11 @@ font-family: "Proxima-Nova";
 
 @media screen and (max-width: 768px){
 
+  #vmBtn{
+
+    bottom: 20px
+  }
+
   .dym-des-hdr{
     font-size: 25px;
     color:#3c3c3c;
@@ -613,4 +618,49 @@ video {
 #aboutDYM{
   overflow-x:hidden;
 }
-  
+
+.profile_image_box {
+  display: block;
+  height: 230px;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 30%;
+}
+
+#procontainer .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#roksolana_image {
+  background-image: url('../imgs/landing/Roksolana.png');
+}
+
+#maria_image {
+  background-image: url('../imgs/landing/maria-v.png');
+}
+
+#abeer_image {
+  background-image: url('../imgs/landing/abeer-k.png');
+}
+
+#jee_image {
+  background-image: url('../imgs/landing/jee.png');
+}
+
+#placehold_image {
+  background-image: url('../imgs/landing/placehold.png');
+}
+
+#hamida_image {
+  background-image: url('../imgs/landing/Hamida.png');
+}
+
+#arthi_image {
+  background-image: url('../imgs/landing/profileGrid-arthi.jpg');
+}
+
+#julie_image {
+  background-image: url('../imgs/landing/Julie-P.png');
+}
+

@@ -17,7 +17,7 @@
     // });
 
 $(document).ready(function(){
-    $('#procontainer .row').addClass('hidden');
+    $('#procontainer .row:not(.viewbtn)').addClass('hidden');
     var browser_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     if (browser_width < 768) {
         $('#procontainer .row').first().removeClass('hidden').addClass('showing');
@@ -27,7 +27,7 @@ $(document).ready(function(){
     }
 
     $(document).on('click', '#viewMore', (function() {
-        $('#procontainer .hidden').first().slideDown(1000).removeClass('hidden');
+        $('#procontainer .hidden').first().slideDown().removeClass('hidden');
         if ($('#procontainer .hidden').length == 0 ){
             $(this).find('span').text('View Less');
             $(this).find('.fa-angle-down').removeClass('fa-angle-down').addClass('fa-angle-up');
