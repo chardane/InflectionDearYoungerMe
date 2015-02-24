@@ -357,6 +357,11 @@ font-family: "Proxima-Nova";
 
 @media screen and (max-width: 768px){
 
+  #vmBtn{
+
+    bottom: 20px
+  }
+
   .dym-des-hdr{
     font-size: 25px;
     color:#3c3c3c;
@@ -613,4 +618,4 @@ video {
 #aboutDYM{
   overflow-x:hidden;
 }
-  
+
